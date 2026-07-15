@@ -1,0 +1,212 @@
+{
+  "name": "Data Analystv1",
+  "nodes": [
+    {
+      "parameters": {
+        "public": true,
+        "initialMessages": "Hi there! 👋\nI am a Data Analyst ssistant how can i help you ?",
+        "options": {
+          "inputPlaceholder": "Type your question..",
+          "title": "Your first insight",
+          "responseMode": "lastNode"
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.chatTrigger",
+      "typeVersion": 1.4,
+      "position": [
+        0,
+        0
+      ],
+      "id": "d140d836-2d7d-4a09-8887-ba15f29b6bf0",
+      "name": "When chat message received",
+      "webhookId": "4628afa5-7ddf-4767-9288-cbe872124ae4"
+    },
+    {
+      "parameters": {
+        "options": {
+          "systemMessage": "<role>\nYou are the n8n Data Analyst AI Agent, an expert data operations and governance analyst. You help users load, clean, and inspect spreadsheet data by intelligently calling the appropriate tools. You guide users step-by-step, narrate your actions transparently, flag anomalies, and turn raw data rows into clear business insights.\n</role>\n\n<instructions>\n<goal>\nAssist users in loading, previewing, and analyzing dataset records. When a user requests data processing, select the correct tool, execute it with the exact JSON parameters required, and explain the data results in plain, professional language.\n</goal>\n\n<rules>\n1. Always state what action you are about to take before executing a tool.\n2. If the data contains anomalies, major drops, or unexpected duplicates, explicitly flag them for the user.\n3. Keep summaries structured, clear, and focused on operational impact.\n4. If an execution step fails or missing parameters are detected, explain the issue clearly to the user rather than guessing.\n</rules>\n</instructions>"
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 3.1,
+      "position": [
+        208,
+        0
+      ],
+      "id": "a864b137-a4de-460b-b356-71fbacb9d43d",
+      "name": "AI Agent"
+    },
+    {
+      "parameters": {
+        "model": {
+          "__rl": true,
+          "mode": "list",
+          "value": "gpt-5-mini"
+        },
+        "builtInTools": {},
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+      "typeVersion": 1.3,
+      "position": [
+        80,
+        208
+      ],
+      "id": "f7aaa7ac-75fc-43b6-bfc5-7a1777148395",
+      "name": "OpenAI Chat Model",
+      "credentials": {
+        "openAiApi": {
+          "id": null,
+          "name": "",
+          "__aiGatewayManaged": true
+        }
+      }
+    },
+    {
+      "parameters": {
+        "contextWindowLength": 10
+      },
+      "type": "@n8n/n8n-nodes-langchain.memoryBufferWindow",
+      "typeVersion": 1.4,
+      "position": [
+        224,
+        208
+      ],
+      "id": "cbf0ce84-7102-4474-aba5-0e359aa05575",
+      "name": "Simple Memory"
+    },
+    {
+      "parameters": {
+        "documentId": {
+          "__rl": true,
+          "value": "https://docs.google.com/spreadsheets/d/1uO6MlP3eRbHx07FuvfHO-sqOn8UmmnhgymlZui7VtQ4/edit?gid=1239231658#gid=1239231658",
+          "mode": "url"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": "Data",
+          "mode": "name"
+        },
+        "filtersUI": {
+          "values": [
+            {
+              "lookupColumn": "Assigned_Team",
+              "lookupValue": "Network Operations"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheetsTool",
+      "typeVersion": 4.7,
+      "position": [
+        368,
+        208
+      ],
+      "id": "ba7fd581-9f0f-445d-9362-dc6a08261a18",
+      "name": "Get row(s) in sheet in Google Sheets",
+      "notesInFlow": false,
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "iWjMNKOscUJK7EHN",
+          "name": "Google Sheets OAuth2 API"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "sendTo": "sumitstiwari07@gmail.com",
+        "subject": "Data Analyst Assistant Report",
+        "message": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('Message', ``, 'string') }}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.gmailTool",
+      "typeVersion": 2.2,
+      "position": [
+        464,
+        304
+      ],
+      "id": "06ee56fb-31d3-429d-9ba1-bb68918494e3",
+      "name": "Send a message in Gmail",
+      "webhookId": "e88607f3-0317-4f73-b400-08768274686d",
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "jfQWPgnX5ELceJMX",
+          "name": "Gmail OAuth2 API"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "When chat message received": {
+      "main": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenAI Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Simple Memory": {
+      "ai_memory": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_memory",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get row(s) in sheet in Google Sheets": {
+      "ai_tool": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Send a message in Gmail": {
+      "ai_tool": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": true,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate",
+    "availableInMCP": false
+  },
+  "versionId": "8a4151c5-443e-4eb1-9fff-49830b36cb0d",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "71bef2332b372bb5bde93b8067471f1121f77a06e72d667ec1012d9f7dd580f0"
+  },
+  "nodeGroups": [],
+  "id": "MBiC0d37GTEnJz5w",
+  "tags": []
+}
