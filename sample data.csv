@@ -1,0 +1,601 @@
+Incident_ID,Created_Date,Resolved_Date,SLA_Deadline,Priority,Incident_Category,Assigned_Team,Business_Unit,Status,Resolution_Time_Hours,SLA_Target_Hours,SLA_Breached,Reopened,Change_Request_Linked,Change_Request_ID,Change_Type,Caused_By_Change,Customer_Impact,Risk_Score
+INC100328,2024-01-02 21:24,2024-01-05 13:04,2024-01-03 21:24,P3,Capacity Exceeded,Network Operations,Legal & Compliance,Resolved,63.68,24,True,True,No,N/A,N/A,False,Low,6.3
+INC100095,2024-01-03 09:46,2024-01-04 17:12,2024-01-04 09:46,P3,Data Corruption,Identity & Access Management,Supply Chain,Closed,31.45,24,True,False,No,N/A,N/A,False,Low,6.7
+INC100025,2024-01-03 12:16,2024-01-04 11:54,2024-01-06 12:16,P4,Network Outage,Database Administration,Corporate IT,Closed,23.64,72,False,False,No,N/A,N/A,False,Low,0.5
+INC100586,2024-01-04 19:48,2024-01-05 02:19,2024-01-05 03:48,P2,Application Error,Database Administration,HR Operations,Closed,6.52,8,False,False,Yes,CHG200586,Normal,False,High,5.7
+INC100598,2024-01-07 03:43,2024-01-09 03:40,2024-01-10 03:43,P4,Hardware Failure,DevOps Engineering,Legal & Compliance,Closed,47.97,72,False,False,No,N/A,N/A,False,Low,0.9
+INC100133,2024-01-07 05:55,2024-01-08 21:08,2024-01-10 05:55,P4,Hardware Failure,Identity & Access Management,Legal & Compliance,Closed,39.23,72,False,False,Yes,CHG200133,Emergency,False,Medium,1.9
+INC100019,2024-01-08 02:45,2024-01-08 05:20,2024-01-08 10:45,P2,Cloud Service Disruption,Cybersecurity Response,HR Operations,Closed,2.6,8,False,False,No,N/A,N/A,False,High,6.5
+INC100384,2024-01-08 16:42,2024-01-09 16:01,2024-01-09 16:42,P3,Authentication Failure,Cloud Platform Team,Retail Banking,Resolved,23.33,24,False,False,No,N/A,N/A,False,Low,2.7
+INC100502,2024-01-10 05:26,2024-01-10 14:57,2024-01-10 09:26,P1,Database Performance,Database Administration,Customer Service,Resolved,9.52,4,True,False,No,N/A,N/A,False,Medium,10.0
+INC100516,2024-01-11 00:33,2024-01-12 05:18,2024-01-14 00:33,P4,Hardware Failure,Database Administration,Supply Chain,Closed,28.75,72,False,False,No,N/A,N/A,False,Low,0.5
+INC100355,2024-01-12 08:13,2024-01-13 16:19,2024-01-13 08:13,P3,Capacity Exceeded,Identity & Access Management,Customer Service,Resolved,32.11,24,True,False,No,N/A,N/A,False,Medium,6.6
+INC100597,2024-01-12 20:12,2024-01-13 10:17,2024-01-15 20:12,P4,Access Management,DevOps Engineering,HR Operations,Resolved,14.08,72,False,False,No,N/A,N/A,False,Low,1.3
+INC100434,2024-01-14 23:16,2024-01-15 13:48,2024-01-15 23:16,P3,Access Management,DevOps Engineering,Finance,Closed,14.54,24,False,False,No,N/A,N/A,False,Low,3.4
+INC100396,2024-01-15 10:48,2024-01-16 19:30,2024-01-16 10:48,P3,Cloud Service Disruption,Cybersecurity Response,Legal & Compliance,Closed,32.7,24,True,True,No,N/A,N/A,False,Medium,5.8
+INC100099,2024-01-16 23:09,2024-01-20 15:58,2024-01-19 23:09,P4,Application Error,DevOps Engineering,Customer Service,Closed,88.83,72,True,True,No,N/A,N/A,False,Low,3.1
+INC100521,2024-01-20 04:03,2024-01-20 11:53,2024-01-20 08:03,P1,Third-Party Integration Failure,Cybersecurity Response,Legal & Compliance,Resolved,7.83,4,True,False,No,N/A,N/A,False,High,10.0
+INC100564,2024-01-20 09:55,2024-01-21 18:31,2024-01-21 09:55,P3,Batch Job Failure,Identity & Access Management,Retail Banking,Closed,32.62,24,True,False,No,N/A,N/A,False,Low,6.4
+INC100039,2024-01-26 05:47,2024-01-27 20:57,2024-01-29 05:47,P4,Database Performance,Database Administration,Corporate IT,Closed,39.18,72,False,False,No,N/A,N/A,False,Low,1.5
+INC100573,2024-01-27 19:39,2024-01-29 03:47,2024-01-28 19:39,P3,Application Error,Database Administration,Wealth Management,Closed,32.14,24,True,False,No,N/A,N/A,False,Medium,5.9
+INC100387,2024-01-27 20:31,2024-01-28 20:37,2024-01-28 20:31,P3,Data Corruption,Identity & Access Management,Wealth Management,Resolved,24.1,24,True,False,No,N/A,N/A,False,Low,4.7
+INC100162,2024-01-28 13:03,2024-01-28 23:32,2024-01-28 17:03,P1,Security Breach,Service Desk L1,Legal & Compliance,Resolved,10.49,4,True,False,No,N/A,N/A,False,High,10.0
+INC100344,2024-01-31 08:03,2024-01-31 13:39,2024-01-31 16:03,P2,Network Outage,Identity & Access Management,HR Operations,Closed,5.61,8,False,False,No,N/A,N/A,False,Low,5.9
+INC100320,2024-01-31 10:51,2024-02-02 17:23,2024-02-03 10:51,P4,Capacity Exceeded,Infrastructure Engineering,Retail Banking,Resolved,54.54,72,False,False,No,N/A,N/A,False,Low,2.4
+INC100062,2024-02-01 07:12,2024-02-01 17:39,2024-02-01 15:12,P2,Security Breach,Application Support L2,Finance,Closed,10.46,8,True,False,No,N/A,N/A,False,Medium,8.9
+INC100232,2024-02-02 09:26,2024-02-08 02:30,2024-02-05 09:26,P4,Network Outage,Application Support L2,Customer Service,Closed,137.08,72,True,False,No,N/A,N/A,False,Low,3.9
+INC100098,2024-02-07 04:32,2024-02-12 20:24,2024-02-10 04:32,P4,Data Corruption,Database Administration,Customer Service,Resolved,135.88,72,True,False,No,N/A,N/A,False,Low,3.8
+INC100043,2024-02-09 03:38,2024-02-11 02:50,2024-02-12 03:38,P4,Database Performance,Enterprise Architecture,Supply Chain,Resolved,47.2,72,False,False,No,N/A,N/A,False,Low,1.3
+INC100373,2024-02-09 12:56,2024-02-09 18:52,2024-02-09 16:56,P1,Data Corruption,Database Administration,Corporate IT,Closed,5.94,4,True,True,No,N/A,N/A,False,Medium,10.0
+INC100579,2024-02-10 17:24,2024-02-10 19:14,2024-02-11 01:24,P2,Cloud Service Disruption,DevOps Engineering,Corporate IT,Resolved,1.84,8,False,False,No,N/A,N/A,False,Medium,5.0
+INC100213,2024-02-13 09:45,2024-02-13 12:28,2024-02-13 17:45,P2,Access Management,Database Administration,Supply Chain,Closed,2.72,8,False,False,Yes,CHG200213,Normal,False,Low,6.4
+INC100469,2024-02-14 04:36,2024-02-15 03:12,2024-02-17 04:36,P4,Data Corruption,Network Operations,HR Operations,Closed,22.61,72,False,False,No,N/A,N/A,False,Medium,0.6
+INC100035,2024-02-15 00:21,2024-02-15 14:08,2024-02-15 08:21,P2,Application Error,Cloud Platform Team,Supply Chain,Resolved,13.8,8,True,False,No,N/A,N/A,False,Medium,8.3
+INC100076,2024-02-16 01:35,2024-02-16 09:36,2024-02-16 09:35,P2,Cloud Service Disruption,Database Administration,Supply Chain,Closed,8.02,8,True,True,Yes,CHG200076,Standard,False,High,8.4
+INC100192,2024-02-16 20:49,2024-02-18 01:38,2024-02-19 20:49,P4,Network Outage,Network Operations,Retail Banking,Closed,28.83,72,False,False,No,N/A,N/A,False,Low,1.1
+INC100260,2024-02-17 02:43,2024-02-18 09:53,2024-02-18 02:43,P3,Authentication Failure,Service Desk L1,Supply Chain,Resolved,31.18,24,True,False,No,N/A,N/A,False,Low,6.3
+INC100166,2024-02-18 07:26,2024-02-18 08:34,2024-02-21 07:26,P4,Security Breach,Infrastructure Engineering,Retail Banking,Closed,1.14,72,False,False,No,N/A,N/A,False,Low,2.0
+INC100339,2024-02-21 05:59,2024-02-23 19:21,2024-02-24 05:59,P4,Application Error,Network Operations,Customer Service,Closed,61.38,72,False,False,No,N/A,N/A,False,Low,1.4
+INC100120,2024-02-21 10:15,2024-02-22 17:48,2024-02-24 10:15,P4,Batch Job Failure,Enterprise Architecture,Finance,Closed,31.55,72,False,False,No,N/A,N/A,False,Low,1.4
+INC100051,2024-02-21 17:15,2024-02-21 21:05,2024-02-22 01:15,P2,Database Performance,DevOps Engineering,Customer Service,Resolved,3.84,8,False,False,No,N/A,N/A,False,Medium,5.9
+INC100027,2024-02-21 18:30,2024-02-22 09:59,2024-02-21 22:30,P1,Network Outage,Identity & Access Management,Finance,Closed,15.5,4,True,True,No,N/A,N/A,False,Low,10.0
+INC100215,2024-02-23 03:26,2024-03-01 05:58,2024-02-26 03:26,P4,Cloud Service Disruption,Cybersecurity Response,HR Operations,Closed,170.55,72,True,True,No,N/A,N/A,False,Medium,3.9
+INC100160,2024-02-23 20:30,2024-02-23 23:54,2024-02-24 00:30,P1,Authentication Failure,Database Administration,Supply Chain,Resolved,3.41,4,False,False,No,N/A,N/A,False,Low,9.9
+INC100563,2024-02-24 14:41,2024-02-24 17:22,2024-02-24 18:41,P1,Hardware Failure,Cybersecurity Response,Supply Chain,Resolved,2.69,4,False,False,No,N/A,N/A,False,Medium,9.0
+INC100445,2024-02-25 05:50,2024-02-26 03:01,2024-02-28 05:50,P4,Network Outage,Application Support L2,Retail Banking,Resolved,21.2,72,False,False,No,N/A,N/A,False,Medium,0.8
+INC100348,2024-02-27 07:38,2024-02-27 10:38,2024-02-27 11:38,P1,Third-Party Integration Failure,Network Operations,Retail Banking,Resolved,3.0,4,False,False,Yes,CHG200348,Emergency,False,High,7.8
+INC100329,2024-03-02 04:45,2024-03-02 07:53,2024-03-02 12:45,P2,Security Breach,Cloud Platform Team,Customer Service,Closed,3.14,8,False,False,Yes,CHG200329,Standard,False,Medium,5.6
+INC100337,2024-03-04 07:08,2024-03-04 15:48,2024-03-04 11:08,P1,Database Performance,Application Support L2,Finance,Resolved,8.67,4,True,False,Yes,CHG200337,Normal,True,Medium,10.0
+INC100123,2024-03-06 15:28,2024-03-07 02:14,2024-03-07 15:28,P3,Database Performance,Cloud Platform Team,Retail Banking,Resolved,10.78,24,False,False,No,N/A,N/A,False,Medium,4.7
+INC100576,2024-03-08 05:59,2024-03-09 12:27,2024-03-09 05:59,P3,Security Breach,Cybersecurity Response,HR Operations,Closed,30.47,24,True,False,No,N/A,N/A,False,Low,6.2
+INC100009,2024-03-08 06:58,2024-03-08 13:44,2024-03-09 06:58,P3,Access Management,Cloud Platform Team,Supply Chain,Resolved,6.77,24,False,False,No,N/A,N/A,False,Low,3.2
+INC100377,2024-03-08 09:45,2024-03-09 04:08,2024-03-09 09:45,P3,Network Outage,DevOps Engineering,Wealth Management,Closed,18.4,24,False,False,No,N/A,N/A,False,Low,3.7
+INC100151,2024-03-08 10:06,2024-03-09 01:51,2024-03-09 10:06,P3,Authentication Failure,Network Operations,Legal & Compliance,Closed,15.76,24,False,False,No,N/A,N/A,False,Low,3.6
+INC100282,2024-03-09 09:02,2024-03-12 10:02,2024-03-10 09:02,P3,Third-Party Integration Failure,Service Desk L1,Legal & Compliance,Resolved,73.01,24,True,True,No,N/A,N/A,False,Low,4.7
+INC100146,2024-03-10 15:28,2024-03-11 22:05,2024-03-11 15:28,P3,Access Management,Database Administration,Customer Service,Resolved,30.63,24,True,False,No,N/A,N/A,False,Low,5.6
+INC100139,2024-03-14 12:55,2024-03-14 23:01,2024-03-15 12:55,P3,Security Breach,DevOps Engineering,Legal & Compliance,Closed,10.11,24,False,True,No,N/A,N/A,False,Medium,4.5
+INC100524,2024-03-14 17:30,2024-03-18 22:31,2024-03-17 17:30,P4,Network Outage,Infrastructure Engineering,Corporate IT,Resolved,101.02,72,True,False,No,N/A,N/A,False,Medium,4.3
+INC100245,2024-03-15 06:51,2024-03-15 20:51,2024-03-16 06:51,P3,Batch Job Failure,Enterprise Architecture,Finance,Closed,14.01,24,False,False,No,N/A,N/A,False,Low,3.5
+INC100194,2024-03-15 22:03,2024-03-18 19:49,2024-03-16 22:03,P3,Data Corruption,Infrastructure Engineering,Customer Service,Closed,69.77,24,True,False,No,N/A,N/A,False,Medium,5.4
+INC100183,2024-03-16 14:11,2024-03-16 17:10,2024-03-16 18:11,P1,Security Breach,Application Support L2,Wealth Management,Closed,2.99,4,False,False,No,N/A,N/A,False,Low,8.9
+INC100105,2024-03-16 14:22,2024-03-18 07:59,2024-03-19 14:22,P4,Hardware Failure,DevOps Engineering,Wealth Management,Resolved,41.63,72,False,False,No,N/A,N/A,False,Low,1.8
+INC100031,2024-03-16 17:13,2024-03-17 23:19,2024-03-17 17:13,P3,Network Outage,Service Desk L1,Retail Banking,Closed,30.11,24,True,False,No,N/A,N/A,False,Medium,4.9
+INC100467,2024-03-19 16:41,2024-03-22 10:40,2024-03-20 16:41,P3,Third-Party Integration Failure,Database Administration,HR Operations,Closed,66.0,24,True,False,No,N/A,N/A,False,Low,5.5
+INC100354,2024-03-20 07:22,2024-03-20 15:46,2024-03-20 15:22,P2,Third-Party Integration Failure,Database Administration,Legal & Compliance,Closed,8.41,8,True,False,No,N/A,N/A,False,High,9.1
+INC100324,2024-03-20 18:23,2024-03-20 19:44,2024-03-20 22:23,P1,Data Corruption,Identity & Access Management,Supply Chain,Closed,1.35,4,False,False,Yes,CHG200324,Emergency,False,Low,9.0
+INC100551,2024-03-21 01:58,2024-03-21 06:35,2024-03-21 05:58,P1,Network Outage,Enterprise Architecture,Corporate IT,Resolved,4.63,4,True,False,No,N/A,N/A,False,Medium,10.0
+INC100369,2024-03-21 21:27,2024-03-24 08:22,2024-03-24 21:27,P4,Database Performance,Network Operations,Corporate IT,Closed,58.93,72,False,False,No,N/A,N/A,False,Low,0.9
+INC100006,2024-03-22 07:55,2024-03-22 10:10,2024-03-22 15:55,P2,Batch Job Failure,Cybersecurity Response,Supply Chain,Resolved,2.26,8,False,False,Yes,CHG200006,Normal,False,Medium,6.5
+INC100574,2024-03-22 22:49,2024-03-24 08:59,2024-03-23 22:49,P3,Batch Job Failure,Network Operations,Legal & Compliance,Closed,34.17,24,True,False,No,N/A,N/A,False,Low,5.5
+INC100125,2024-03-23 10:38,2024-03-24 15:41,2024-03-24 10:38,P3,Capacity Exceeded,Service Desk L1,Retail Banking,Resolved,29.06,24,True,False,Yes,CHG200125,Standard,True,Low,7.2
+INC100061,2024-03-24 15:01,2024-03-24 17:13,2024-03-24 19:01,P1,Hardware Failure,Cloud Platform Team,Supply Chain,Resolved,2.21,4,False,False,No,N/A,N/A,False,Medium,8.6
+INC100149,2024-03-27 16:41,2024-03-30 00:34,2024-03-28 16:41,P3,Third-Party Integration Failure,Application Support L2,Legal & Compliance,Closed,55.89,24,True,False,No,N/A,N/A,False,Low,6.0
+INC100471,2024-03-28 06:28,2024-03-29 12:22,2024-03-31 06:28,P4,Batch Job Failure,Network Operations,Supply Chain,Closed,29.9,72,False,False,No,N/A,N/A,False,Medium,1.0
+INC100295,2024-03-30 14:55,2024-04-07 04:16,2024-04-02 14:55,P4,Third-Party Integration Failure,Infrastructure Engineering,Legal & Compliance,Closed,181.36,72,True,False,No,N/A,N/A,False,Low,3.6
+INC100113,2024-04-02 12:00,2024-04-02 21:45,2024-04-03 12:00,P3,Batch Job Failure,Cloud Platform Team,Legal & Compliance,Resolved,9.75,24,False,False,No,N/A,N/A,False,Low,5.3
+INC100406,2024-04-02 16:04,2024-04-03 14:13,2024-04-03 00:04,P2,Authentication Failure,Service Desk L1,Wealth Management,Resolved,22.16,8,True,False,No,N/A,N/A,False,Low,8.5
+INC100128,2024-04-03 02:05,2024-04-04 12:16,2024-04-04 02:05,P3,Batch Job Failure,Service Desk L1,Retail Banking,Resolved,34.2,24,True,False,No,N/A,N/A,False,Low,4.9
+INC100088,2024-04-03 15:22,2024-04-04 01:01,2024-04-04 15:22,P3,Authentication Failure,Cloud Platform Team,Customer Service,Resolved,9.66,24,False,False,No,N/A,N/A,False,Medium,3.7
+INC100418,2024-04-03 19:39,2024-04-03 22:46,2024-04-03 23:39,P1,Network Outage,DevOps Engineering,Finance,Closed,3.12,4,False,False,No,N/A,N/A,False,Medium,8.1
+INC100439,2024-04-04 11:14,2024-04-05 02:05,2024-04-05 11:14,P3,Database Performance,Cloud Platform Team,Corporate IT,Resolved,14.86,24,False,False,No,N/A,N/A,False,Low,3.0
+INC100024,2024-04-05 07:10,2024-04-05 16:25,2024-04-05 15:10,P2,Application Error,Network Operations,Finance,Closed,9.26,8,True,False,No,N/A,N/A,False,Medium,8.5
+INC100591,2024-04-05 09:20,2024-04-05 19:22,2024-04-08 09:20,P4,Authentication Failure,Identity & Access Management,Finance,Closed,10.04,72,False,False,No,N/A,N/A,False,Low,1.1
+INC100548,2024-04-06 01:29,2024-04-06 02:29,2024-04-07 01:29,P3,Network Outage,Infrastructure Engineering,Wealth Management,Closed,1.0,24,False,False,No,N/A,N/A,False,Low,2.9
+INC100408,2024-04-07 01:00,2024-04-07 22:53,2024-04-08 01:00,P3,Access Management,Cloud Platform Team,Retail Banking,Closed,21.89,24,False,False,No,N/A,N/A,False,Low,3.6
+INC100537,2024-04-08 16:42,2024-04-09 04:02,2024-04-09 00:42,P2,Data Corruption,Identity & Access Management,Retail Banking,Resolved,11.35,8,True,False,Yes,CHG200537,Standard,True,Medium,9.6
+INC100004,2024-04-09 11:54,2024-04-09 15:03,2024-04-09 19:54,P2,Application Error,Application Support L2,Corporate IT,Closed,3.16,8,False,False,Yes,CHG200004,Normal,False,Medium,6.2
+INC100420,2024-04-09 21:14,2024-04-11 15:29,2024-04-12 21:14,P4,Capacity Exceeded,Service Desk L1,Retail Banking,Resolved,42.26,72,False,False,Yes,CHG200420,Normal,False,Low,1.4
+INC100075,2024-04-12 06:18,2024-04-15 10:03,2024-04-15 06:18,P4,Third-Party Integration Failure,Infrastructure Engineering,Supply Chain,Closed,75.76,72,True,False,No,N/A,N/A,False,Low,3.9
+INC100501,2024-04-12 23:17,2024-04-13 20:34,2024-04-15 23:17,P4,Database Performance,Enterprise Architecture,HR Operations,Closed,21.3,72,False,False,No,N/A,N/A,False,Medium,2.0
+INC100357,2024-04-13 15:50,2024-04-13 21:54,2024-04-13 23:50,P2,Data Corruption,Identity & Access Management,Corporate IT,Closed,6.07,8,False,False,No,N/A,N/A,False,High,7.0
+INC100432,2024-04-14 19:55,2024-04-15 16:02,2024-04-17 19:55,P4,Network Outage,Identity & Access Management,Customer Service,Closed,20.12,72,False,False,No,N/A,N/A,False,Low,2.0
+INC100065,2024-04-14 22:49,2024-04-15 09:50,2024-04-15 06:49,P2,Security Breach,Application Support L2,HR Operations,Resolved,11.03,8,True,False,Yes,CHG200065,Emergency,False,Low,8.2
+INC100278,2024-04-21 07:42,2024-04-21 09:32,2024-04-21 15:42,P2,Capacity Exceeded,DevOps Engineering,Retail Banking,Closed,1.84,8,False,False,No,N/A,N/A,False,High,6.1
+INC100036,2024-04-24 02:56,2024-04-28 19:37,2024-04-27 02:56,P4,Cloud Service Disruption,Cloud Platform Team,Finance,Closed,112.69,72,True,False,No,N/A,N/A,False,Low,3.3
+INC100410,2024-04-25 04:44,2024-04-26 13:42,2024-04-25 12:44,P2,Third-Party Integration Failure,Cloud Platform Team,Wealth Management,Closed,32.98,8,True,True,No,N/A,N/A,False,Low,7.7
+INC100371,2024-04-25 13:09,2024-04-26 01:15,2024-04-26 13:09,P3,Capacity Exceeded,Enterprise Architecture,Corporate IT,Resolved,12.1,24,False,False,Yes,CHG200371,Emergency,False,Low,3.8
+INC100412,2024-04-25 13:28,2024-04-28 22:57,2024-04-26 13:28,P3,Database Performance,Service Desk L1,Customer Service,Resolved,81.49,24,True,False,Yes,CHG200412,Normal,False,Low,5.9
+INC100557,2024-04-25 21:26,2024-04-29 15:03,2024-04-28 21:26,P4,Data Corruption,Identity & Access Management,Retail Banking,Resolved,89.62,72,True,False,No,N/A,N/A,False,Low,3.8
+INC100452,2024-04-27 05:42,2024-04-30 22:09,2024-04-30 05:42,P4,Authentication Failure,Infrastructure Engineering,HR Operations,Resolved,88.46,72,True,False,No,N/A,N/A,False,Low,3.4
+INC100131,2024-04-27 08:36,2024-04-30 11:07,2024-04-30 08:36,P4,Application Error,Identity & Access Management,Legal & Compliance,Closed,74.52,72,True,False,No,N/A,N/A,False,Low,4.1
+INC100229,2024-04-29 21:13,2024-04-30 14:02,2024-04-30 05:13,P2,Database Performance,Identity & Access Management,Customer Service,Closed,16.82,8,True,True,No,N/A,N/A,False,Low,8.0
+INC100093,2024-04-30 20:53,2024-05-01 10:52,2024-05-01 20:53,P3,Security Breach,Application Support L2,Customer Service,Resolved,13.99,24,False,False,No,N/A,N/A,False,Low,3.4
+INC100079,2024-05-01 17:48,2024-05-02 15:00,2024-05-02 17:48,P3,Hardware Failure,Application Support L2,HR Operations,Closed,21.21,24,False,False,No,N/A,N/A,False,Low,3.9
+INC100368,2024-05-03 14:11,2024-05-04 00:55,2024-05-04 14:11,P3,Authentication Failure,Enterprise Architecture,Wealth Management,Closed,10.75,24,False,False,No,N/A,N/A,False,Medium,3.4
+INC100450,2024-05-06 01:00,2024-05-06 06:39,2024-05-06 09:00,P2,Cloud Service Disruption,DevOps Engineering,Wealth Management,Closed,5.66,8,False,False,No,N/A,N/A,False,High,6.0
+INC100583,2024-05-06 02:07,2024-05-09 07:03,2024-05-09 02:07,P4,Hardware Failure,Identity & Access Management,Wealth Management,Resolved,76.94,72,True,True,No,N/A,N/A,False,Low,3.0
+INC100400,2024-05-06 11:45,2024-05-08 11:46,2024-05-07 11:45,P3,Authentication Failure,DevOps Engineering,Wealth Management,Resolved,48.02,24,True,False,No,N/A,N/A,False,Low,5.1
+INC100174,2024-05-07 11:27,2024-05-08 14:39,2024-05-08 11:27,P3,Batch Job Failure,Identity & Access Management,Supply Chain,Closed,27.2,24,True,False,No,N/A,N/A,False,Low,5.7
+INC100179,2024-05-09 02:15,2024-05-10 01:11,2024-05-10 02:15,P3,Authentication Failure,Service Desk L1,Finance,Resolved,22.93,24,False,False,No,N/A,N/A,False,Low,3.6
+INC100202,2024-05-11 03:25,2024-05-11 12:16,2024-05-14 03:25,P4,Batch Job Failure,Enterprise Architecture,Retail Banking,Resolved,8.87,72,False,False,No,N/A,N/A,False,Low,1.1
+INC100188,2024-05-12 13:32,2024-05-15 21:11,2024-05-15 13:32,P4,Access Management,Database Administration,Wealth Management,Resolved,79.66,72,True,False,No,N/A,N/A,False,Low,3.0
+INC100230,2024-05-15 16:26,2024-05-19 08:02,2024-05-18 16:26,P4,Third-Party Integration Failure,Network Operations,Customer Service,Resolved,87.6,72,True,False,No,N/A,N/A,False,Low,3.1
+INC100382,2024-05-15 20:11,2024-05-16 07:24,2024-05-16 04:11,P2,Network Outage,Network Operations,Customer Service,Resolved,11.22,8,True,False,No,N/A,N/A,False,Low,7.5
+INC100308,2024-05-16 20:43,2024-05-17 09:19,2024-05-17 04:43,P2,Hardware Failure,Database Administration,Corporate IT,Closed,12.6,8,True,False,Yes,CHG200308,Emergency,False,Low,7.8
+INC100060,2024-05-18 14:11,2024-05-19 16:02,2024-05-19 14:11,P3,Network Outage,Application Support L2,Corporate IT,Closed,25.85,24,True,False,Yes,CHG200060,Normal,True,Low,6.8
+INC100214,2024-05-20 03:39,2024-05-22 00:04,2024-05-21 03:39,P3,Hardware Failure,DevOps Engineering,Supply Chain,Closed,44.42,24,True,False,No,N/A,N/A,False,Low,6.7
+INC100253,2024-05-20 20:14,2024-05-21 08:55,2024-05-21 04:14,P2,Network Outage,Network Operations,Corporate IT,Closed,12.69,8,True,False,Yes,CHG200253,Standard,True,Low,10.0
+INC100570,2024-05-21 09:44,2024-05-22 17:12,2024-05-24 09:44,P4,Security Breach,Database Administration,HR Operations,Closed,31.48,72,False,False,No,N/A,N/A,False,Medium,2.3
+INC100084,2024-05-25 02:03,2024-05-26 02:28,2024-05-26 02:03,P3,Security Breach,Database Administration,Supply Chain,Resolved,24.42,24,True,False,No,N/A,N/A,False,Low,5.1
+INC100589,2024-05-28 01:42,2024-06-01 00:09,2024-05-31 01:42,P4,Network Outage,Identity & Access Management,Finance,Resolved,94.47,72,True,False,No,N/A,N/A,False,Medium,4.6
+INC100386,2024-06-02 16:48,2024-06-03 23:02,2024-06-05 16:48,P4,Batch Job Failure,Infrastructure Engineering,HR Operations,Resolved,30.25,72,False,False,No,N/A,N/A,False,Low,2.1
+INC100165,2024-06-02 17:46,2024-06-05 08:00,2024-06-03 17:46,P3,Network Outage,Infrastructure Engineering,HR Operations,Closed,62.24,24,True,True,No,N/A,N/A,False,Low,5.6
+INC100327,2024-06-03 00:59,2024-06-03 21:08,2024-06-03 08:59,P2,Third-Party Integration Failure,Cybersecurity Response,HR Operations,Closed,20.15,8,True,False,No,N/A,N/A,False,Low,7.9
+INC100568,2024-06-04 10:57,2024-06-04 19:08,2024-06-05 10:57,P3,Cloud Service Disruption,Infrastructure Engineering,HR Operations,Closed,8.2,24,False,False,No,N/A,N/A,False,Low,3.5
+INC100250,2024-06-05 06:21,2024-06-05 10:29,2024-06-05 14:21,P2,Authentication Failure,Cloud Platform Team,Supply Chain,Closed,4.14,8,False,False,Yes,CHG200250,Emergency,False,Low,6.5
+INC100226,2024-06-05 14:47,2024-06-06 00:19,2024-06-06 14:47,P3,Security Breach,Database Administration,Customer Service,Resolved,9.55,24,False,False,No,N/A,N/A,False,Low,3.2
+INC100437,2024-06-06 10:38,2024-06-07 14:00,2024-06-09 10:38,P4,Capacity Exceeded,Database Administration,Finance,Resolved,27.37,72,False,False,Yes,CHG200437,Emergency,False,Low,0.8
+INC100026,2024-06-07 06:18,2024-06-07 23:24,2024-06-08 06:18,P3,Capacity Exceeded,DevOps Engineering,Customer Service,Resolved,17.1,24,False,False,No,N/A,N/A,False,Low,2.7
+INC100236,2024-06-07 08:12,2024-06-07 20:24,2024-06-08 08:12,P3,Security Breach,Service Desk L1,Legal & Compliance,Resolved,12.2,24,False,False,No,N/A,N/A,False,Low,3.9
+INC100135,2024-06-08 05:48,2024-06-14 04:42,2024-06-11 05:48,P4,Authentication Failure,Application Support L2,Finance,Resolved,142.91,72,True,False,No,N/A,N/A,False,Low,4.9
+INC100032,2024-06-10 14:53,2024-06-11 13:36,2024-06-11 14:53,P3,Security Breach,Identity & Access Management,Supply Chain,Resolved,22.73,24,False,False,No,N/A,N/A,False,Low,3.6
+INC100197,2024-06-12 10:59,2024-06-12 18:40,2024-06-12 14:59,P1,Authentication Failure,Cloud Platform Team,HR Operations,Resolved,7.69,4,True,False,No,N/A,N/A,False,High,10.0
+INC100161,2024-06-13 08:28,2024-06-14 16:40,2024-06-14 08:28,P3,Application Error,Infrastructure Engineering,Retail Banking,Closed,32.2,24,True,False,No,N/A,N/A,False,Medium,6.3
+INC100482,2024-06-13 12:40,2024-06-17 23:56,2024-06-16 12:40,P4,Data Corruption,Identity & Access Management,Finance,Closed,107.27,72,True,False,Yes,CHG200482,Standard,False,Low,4.2
+INC100189,2024-06-14 10:59,2024-06-16 04:52,2024-06-17 10:59,P4,Database Performance,Infrastructure Engineering,Wealth Management,Resolved,41.89,72,False,False,No,N/A,N/A,False,Low,1.8
+INC100111,2024-06-17 08:58,2024-06-18 10:56,2024-06-18 08:58,P3,Access Management,DevOps Engineering,Supply Chain,Closed,25.98,24,True,False,No,N/A,N/A,False,Low,7.1
+INC100333,2024-06-17 14:29,2024-06-17 22:05,2024-06-18 14:29,P3,Application Error,Database Administration,Retail Banking,Resolved,7.6,24,False,False,No,N/A,N/A,False,Medium,2.2
+INC100421,2024-06-17 15:08,2024-06-17 20:05,2024-06-17 19:08,P1,Capacity Exceeded,Application Support L2,Finance,Closed,4.97,4,True,True,No,N/A,N/A,False,Low,10.0
+INC100415,2024-06-18 02:48,2024-06-22 02:17,2024-06-21 02:48,P4,Cloud Service Disruption,Service Desk L1,Customer Service,Closed,95.49,72,True,False,No,N/A,N/A,False,Low,3.2
+INC100296,2024-06-18 19:08,2024-06-20 18:59,2024-06-19 19:08,P3,Authentication Failure,Identity & Access Management,Corporate IT,Closed,47.85,24,True,False,No,N/A,N/A,False,Low,6.6
+INC100470,2024-06-19 08:59,2024-06-19 23:06,2024-06-20 08:59,P3,Authentication Failure,Database Administration,Finance,Closed,14.13,24,False,False,No,N/A,N/A,False,Low,2.2
+INC100510,2024-06-19 12:06,2024-06-20 02:29,2024-06-22 12:06,P4,Hardware Failure,Application Support L2,HR Operations,Resolved,14.39,72,False,False,Yes,CHG200510,Normal,False,Low,1.9
+INC100558,2024-06-22 11:39,2024-06-23 04:04,2024-06-23 11:39,P3,Authentication Failure,Network Operations,Supply Chain,Closed,16.42,24,False,False,No,N/A,N/A,False,Low,3.7
+INC100048,2024-06-22 21:05,2024-06-23 15:33,2024-06-23 05:05,P2,Batch Job Failure,Cybersecurity Response,Customer Service,Resolved,18.47,8,True,True,Yes,CHG200048,Emergency,False,High,9.1
+INC100389,2024-06-23 21:56,2024-06-24 05:07,2024-06-24 21:56,P3,Access Management,DevOps Engineering,Supply Chain,Resolved,7.19,24,False,False,No,N/A,N/A,False,Medium,3.1
+INC100191,2024-06-24 21:39,2024-06-25 15:14,2024-06-25 21:39,P3,Authentication Failure,Enterprise Architecture,Wealth Management,Resolved,17.59,24,False,False,No,N/A,N/A,False,Low,3.0
+INC100346,2024-06-26 05:15,2024-06-27 19:47,2024-06-27 05:15,P3,Authentication Failure,Cloud Platform Team,Legal & Compliance,Resolved,38.54,24,True,False,No,N/A,N/A,False,Medium,6.0
+INC100336,2024-06-27 00:25,2024-06-27 15:55,2024-06-28 00:25,P3,Batch Job Failure,Infrastructure Engineering,Supply Chain,Closed,15.51,24,False,False,No,N/A,N/A,False,Medium,4.2
+INC100221,2024-06-28 19:54,2024-06-29 17:54,2024-06-29 19:54,P3,Hardware Failure,Enterprise Architecture,HR Operations,Closed,22.01,24,False,False,No,N/A,N/A,False,Low,3.7
+INC100218,2024-06-29 01:53,2024-06-29 11:33,2024-07-02 01:53,P4,Network Outage,Database Administration,Corporate IT,Closed,9.68,72,False,False,No,N/A,N/A,False,Low,1.6
+INC100590,2024-07-01 05:43,2024-07-01 20:58,2024-07-02 05:43,P3,Network Outage,Application Support L2,Corporate IT,Closed,15.26,24,False,False,No,N/A,N/A,False,Low,3.0
+INC100323,2024-07-02 01:35,2024-07-02 02:41,2024-07-02 05:35,P1,Access Management,Cloud Platform Team,Wealth Management,Closed,1.1,4,False,False,No,N/A,N/A,False,High,7.8
+INC100480,2024-07-02 11:35,2024-07-03 04:49,2024-07-03 11:35,P3,Security Breach,Cloud Platform Team,Customer Service,Resolved,17.24,24,False,False,No,N/A,N/A,False,Low,2.4
+INC100393,2024-07-03 02:31,2024-07-04 03:50,2024-07-04 02:31,P3,Third-Party Integration Failure,Database Administration,Legal & Compliance,Closed,25.33,24,True,False,No,N/A,N/A,False,Medium,5.5
+INC100411,2024-07-04 19:24,2024-07-04 23:35,2024-07-04 23:24,P1,Third-Party Integration Failure,Enterprise Architecture,Customer Service,Resolved,4.2,4,True,False,No,N/A,N/A,False,Low,10.0
+INC100353,2024-07-05 19:20,2024-07-07 09:43,2024-07-06 19:20,P3,Data Corruption,Enterprise Architecture,Finance,Closed,38.4,24,True,False,No,N/A,N/A,False,Medium,6.4
+INC100242,2024-07-07 17:30,2024-07-09 01:36,2024-07-08 17:30,P3,Database Performance,Infrastructure Engineering,Corporate IT,Closed,32.11,24,True,False,No,N/A,N/A,False,Low,5.6
+INC100535,2024-07-08 00:39,2024-07-09 15:40,2024-07-11 00:39,P4,Network Outage,DevOps Engineering,Corporate IT,Closed,39.02,72,False,False,No,N/A,N/A,False,Medium,1.2
+INC100364,2024-07-08 11:56,2024-07-09 14:46,2024-07-09 11:56,P3,Hardware Failure,Application Support L2,Corporate IT,Closed,26.84,24,True,False,No,N/A,N/A,False,Low,6.5
+INC100284,2024-07-09 20:42,2024-07-11 04:00,2024-07-12 20:42,P4,Security Breach,Cloud Platform Team,Wealth Management,Resolved,31.3,72,False,False,No,N/A,N/A,False,Medium,1.3
+INC100520,2024-07-11 02:11,2024-07-11 20:04,2024-07-12 02:11,P3,Cloud Service Disruption,Infrastructure Engineering,Corporate IT,Closed,17.89,24,False,False,Yes,CHG200520,Standard,False,Low,4.8
+INC100542,2024-07-13 06:33,2024-07-14 00:09,2024-07-16 06:33,P4,Application Error,Cybersecurity Response,Corporate IT,Closed,17.61,72,False,False,No,N/A,N/A,False,Low,1.7
+INC100536,2024-07-13 16:43,2024-07-17 12:28,2024-07-16 16:43,P4,Batch Job Failure,DevOps Engineering,Corporate IT,Closed,91.75,72,True,False,No,N/A,N/A,False,Low,3.0
+INC100246,2024-07-13 23:07,2024-07-14 03:25,2024-07-14 03:07,P1,Hardware Failure,Network Operations,HR Operations,Closed,4.31,4,True,False,No,N/A,N/A,False,Low,10.0
+INC100208,2024-07-14 00:28,2024-07-14 03:11,2024-07-14 04:28,P1,Security Breach,Network Operations,Retail Banking,Closed,2.73,4,False,False,Yes,CHG200208,Standard,False,Low,8.6
+INC100155,2024-07-15 07:08,2024-07-17 20:49,2024-07-18 07:08,P4,Security Breach,Identity & Access Management,Customer Service,Resolved,61.7,72,False,False,No,N/A,N/A,False,Medium,0.9
+INC100046,2024-07-15 13:42,2024-07-17 04:49,2024-07-18 13:42,P4,Data Corruption,Infrastructure Engineering,Wealth Management,Closed,39.13,72,False,False,No,N/A,N/A,False,Low,1.6
+INC100256,2024-07-15 19:33,2024-07-16 05:02,2024-07-15 23:33,P1,Cloud Service Disruption,Database Administration,HR Operations,Closed,9.49,4,True,True,Yes,CHG200256,Normal,True,Medium,10.0
+INC100220,2024-07-16 03:21,2024-07-16 08:30,2024-07-16 07:21,P1,Cloud Service Disruption,Service Desk L1,Supply Chain,Closed,5.16,4,True,True,Yes,CHG200220,Normal,False,Medium,10.0
+INC100378,2024-07-16 06:53,2024-07-17 07:50,2024-07-17 06:53,P3,Authentication Failure,Network Operations,Wealth Management,Resolved,24.95,24,True,False,Yes,CHG200378,Standard,False,Low,5.2
+INC100435,2024-07-17 09:28,2024-07-19 02:20,2024-07-20 09:28,P4,Capacity Exceeded,Identity & Access Management,HR Operations,Resolved,40.88,72,False,False,No,N/A,N/A,False,Medium,0.8
+INC100485,2024-07-18 01:50,2024-07-20 01:41,2024-07-21 01:50,P4,Batch Job Failure,DevOps Engineering,Supply Chain,Closed,47.86,72,False,False,No,N/A,N/A,False,Low,1.1
+INC100190,2024-07-20 20:35,2024-07-21 05:55,2024-07-21 04:35,P2,Hardware Failure,Application Support L2,Supply Chain,Resolved,9.34,8,True,False,Yes,CHG200190,Emergency,True,High,9.7
+INC100338,2024-07-21 20:28,2024-07-22 14:34,2024-07-22 20:28,P3,Application Error,Network Operations,Retail Banking,Resolved,18.11,24,False,False,No,N/A,N/A,False,Low,4.4
+INC100049,2024-07-22 04:01,2024-07-24 05:46,2024-07-25 04:01,P4,Batch Job Failure,Infrastructure Engineering,HR Operations,Resolved,49.76,72,False,False,Yes,CHG200049,Normal,False,Low,1.7
+INC100342,2024-07-23 20:56,2024-07-24 05:40,2024-07-24 20:56,P3,Data Corruption,Database Administration,Corporate IT,Closed,8.75,24,False,False,No,N/A,N/A,False,Low,4.3
+INC100494,2024-07-30 07:12,2024-07-30 14:41,2024-07-30 15:12,P2,Security Breach,Cybersecurity Response,Supply Chain,Resolved,7.49,8,False,False,No,N/A,N/A,False,High,6.4
+INC100394,2024-08-02 05:36,2024-08-02 07:36,2024-08-02 13:36,P2,Network Outage,Service Desk L1,Supply Chain,Closed,2.01,8,False,False,No,N/A,N/A,False,High,5.1
+INC100451,2024-08-04 13:57,2024-08-04 20:20,2024-08-04 21:57,P2,Hardware Failure,Cybersecurity Response,Legal & Compliance,Closed,6.4,8,False,False,No,N/A,N/A,False,High,6.3
+INC100070,2024-08-05 11:51,2024-08-06 02:01,2024-08-06 11:51,P3,Access Management,Database Administration,Customer Service,Resolved,14.17,24,False,False,No,N/A,N/A,False,Low,2.1
+INC100306,2024-08-06 15:04,2024-08-08 15:47,2024-08-07 15:04,P3,Capacity Exceeded,Application Support L2,Finance,Closed,48.72,24,True,True,Yes,CHG200306,Standard,False,Low,5.8
+INC100587,2024-08-10 18:42,2024-08-12 14:48,2024-08-13 18:42,P4,Authentication Failure,Service Desk L1,HR Operations,Closed,44.1,72,False,False,No,N/A,N/A,False,Low,2.2
+INC100493,2024-08-11 18:17,2024-08-13 18:42,2024-08-12 18:17,P3,Third-Party Integration Failure,Identity & Access Management,Legal & Compliance,Closed,48.43,24,True,False,No,N/A,N/A,False,Medium,6.5
+INC100011,2024-08-12 04:32,2024-08-13 17:35,2024-08-15 04:32,P4,Authentication Failure,Cloud Platform Team,Legal & Compliance,Resolved,37.06,72,False,False,No,N/A,N/A,False,Medium,0.5
+INC100381,2024-08-14 20:14,2024-08-15 08:47,2024-08-15 20:14,P3,Network Outage,Database Administration,HR Operations,Resolved,12.55,24,False,False,No,N/A,N/A,False,Low,3.5
+INC100483,2024-08-15 11:05,2024-08-16 01:00,2024-08-15 19:05,P2,Application Error,Application Support L2,Supply Chain,Closed,13.93,8,True,False,No,N/A,N/A,False,Medium,9.0
+INC100554,2024-08-15 13:18,2024-08-15 18:28,2024-08-16 13:18,P3,Authentication Failure,DevOps Engineering,Retail Banking,Closed,5.18,24,False,False,No,N/A,N/A,False,Medium,2.7
+INC100041,2024-08-16 00:42,2024-08-17 11:46,2024-08-19 00:42,P4,Access Management,Infrastructure Engineering,HR Operations,Resolved,35.07,72,False,False,No,N/A,N/A,False,Medium,2.6
+INC100419,2024-08-16 14:21,2024-08-17 04:09,2024-08-16 22:21,P2,Access Management,Identity & Access Management,Finance,Closed,13.81,8,True,False,No,N/A,N/A,False,Medium,8.0
+INC100211,2024-08-18 09:49,2024-08-19 23:36,2024-08-19 09:49,P3,Security Breach,Infrastructure Engineering,Supply Chain,Closed,37.79,24,True,False,No,N/A,N/A,False,Low,5.2
+INC100365,2024-08-19 08:36,2024-08-20 09:31,2024-08-20 08:36,P3,Third-Party Integration Failure,Service Desk L1,Supply Chain,Resolved,24.93,24,True,False,Yes,CHG200365,Emergency,False,Low,5.8
+INC100473,2024-08-23 12:24,2024-08-27 06:14,2024-08-24 12:24,P3,Access Management,Service Desk L1,Retail Banking,Closed,89.85,24,True,False,Yes,CHG200473,Standard,True,Low,7.2
+INC100074,2024-08-24 03:46,2024-08-24 05:06,2024-08-24 07:46,P1,Hardware Failure,Infrastructure Engineering,Supply Chain,Closed,1.34,4,False,False,Yes,CHG200074,Standard,False,Low,8.6
+INC100055,2024-08-24 12:44,2024-08-26 02:45,2024-08-25 12:44,P3,Application Error,Database Administration,Wealth Management,Closed,38.02,24,True,True,No,N/A,N/A,False,Low,6.0
+INC100263,2024-08-25 02:21,2024-08-25 22:48,2024-08-26 02:21,P3,Network Outage,Application Support L2,Corporate IT,Closed,20.46,24,False,False,No,N/A,N/A,False,Low,4.4
+INC100121,2024-08-26 10:49,2024-08-28 18:24,2024-08-29 10:49,P4,Security Breach,Enterprise Architecture,HR Operations,Closed,55.59,72,False,False,Yes,CHG200121,Emergency,True,Low,2.8
+INC100002,2024-08-26 16:38,2024-08-26 16:59,2024-08-27 00:38,P2,Network Outage,Application Support L2,HR Operations,Closed,0.36,8,False,False,Yes,CHG200002,Standard,False,Low,5.6
+INC100097,2024-08-27 13:02,2024-08-27 21:56,2024-08-28 13:02,P3,Capacity Exceeded,Cybersecurity Response,Corporate IT,Closed,8.91,24,False,False,No,N/A,N/A,False,Low,3.7
+INC100223,2024-08-29 14:48,2024-08-31 04:22,2024-08-30 14:48,P3,Network Outage,Infrastructure Engineering,Corporate IT,Resolved,37.58,24,True,False,No,N/A,N/A,False,Low,5.4
+INC100567,2024-08-29 16:17,2024-08-29 21:34,2024-08-30 00:17,P2,Access Management,Identity & Access Management,Supply Chain,Resolved,5.29,8,False,False,No,N/A,N/A,False,High,6.6
+INC100499,2024-08-30 08:30,2024-09-01 05:03,2024-08-31 08:30,P3,Hardware Failure,Database Administration,Supply Chain,Resolved,44.56,24,True,False,No,N/A,N/A,False,Low,6.5
+INC100247,2024-09-02 17:20,2024-09-03 09:33,2024-09-03 17:20,P3,Authentication Failure,Cybersecurity Response,Corporate IT,Closed,16.23,24,False,False,No,N/A,N/A,False,Low,2.7
+INC100237,2024-09-03 06:04,2024-09-03 15:29,2024-09-03 14:04,P2,Data Corruption,Enterprise Architecture,Finance,Resolved,9.42,8,True,False,Yes,CHG200237,Standard,False,High,8.4
+INC100170,2024-09-03 23:42,2024-09-04 16:15,2024-09-04 23:42,P3,Access Management,Application Support L2,Legal & Compliance,Resolved,16.56,24,False,False,No,N/A,N/A,False,Low,4.0
+INC100094,2024-09-06 14:35,2024-09-09 01:26,2024-09-09 14:35,P4,Data Corruption,Service Desk L1,Customer Service,Closed,58.86,72,False,False,Yes,CHG200094,Standard,False,Low,2.9
+INC100069,2024-09-06 14:36,2024-09-08 20:34,2024-09-09 14:36,P4,Application Error,Infrastructure Engineering,Customer Service,Closed,53.98,72,False,False,No,N/A,N/A,False,Low,3.0
+INC100283,2024-09-06 16:11,2024-09-08 11:22,2024-09-09 16:11,P4,Batch Job Failure,Application Support L2,Wealth Management,Resolved,43.19,72,False,False,No,N/A,N/A,False,Low,1.1
+INC100456,2024-09-09 07:45,2024-09-10 06:24,2024-09-10 07:45,P3,Database Performance,Network Operations,Legal & Compliance,Closed,22.66,24,False,False,No,N/A,N/A,False,Low,3.7
+INC100577,2024-09-09 13:25,2024-09-10 07:21,2024-09-10 13:25,P3,Capacity Exceeded,Identity & Access Management,Customer Service,Closed,17.94,24,False,False,No,N/A,N/A,False,Low,3.3
+INC100345,2024-09-10 21:15,2024-09-11 10:24,2024-09-11 21:15,P3,Security Breach,Database Administration,Retail Banking,Resolved,13.15,24,False,False,No,N/A,N/A,False,Medium,3.7
+INC100299,2024-09-10 21:25,2024-09-11 16:48,2024-09-11 21:25,P3,Security Breach,Database Administration,Legal & Compliance,Resolved,19.39,24,False,False,No,N/A,N/A,False,Low,4.1
+INC100227,2024-09-10 21:48,2024-09-12 08:51,2024-09-11 21:48,P3,Third-Party Integration Failure,DevOps Engineering,HR Operations,Resolved,35.07,24,True,False,No,N/A,N/A,False,Low,5.2
+INC100492,2024-09-11 09:05,2024-09-12 08:06,2024-09-11 17:05,P2,Cloud Service Disruption,Network Operations,Supply Chain,Resolved,23.03,8,True,True,No,N/A,N/A,False,High,8.8
+INC100276,2024-09-15 21:09,2024-09-16 10:16,2024-09-16 05:09,P2,Batch Job Failure,Infrastructure Engineering,HR Operations,Closed,13.12,8,True,True,No,N/A,N/A,False,Low,7.9
+INC100173,2024-09-16 01:48,2024-09-16 21:53,2024-09-17 01:48,P3,Cloud Service Disruption,Cloud Platform Team,Customer Service,Resolved,20.09,24,False,False,No,N/A,N/A,False,Medium,2.8
+INC100527,2024-09-16 15:40,2024-09-17 02:44,2024-09-17 15:40,P3,Capacity Exceeded,DevOps Engineering,Retail Banking,Resolved,11.08,24,False,False,No,N/A,N/A,False,Low,3.5
+INC100231,2024-09-17 00:47,2024-09-17 02:04,2024-09-17 04:47,P1,Hardware Failure,Network Operations,Corporate IT,Resolved,1.3,4,False,False,Yes,CHG200231,Standard,True,Low,9.5
+INC100044,2024-09-17 01:45,2024-09-19 15:20,2024-09-20 01:45,P4,Application Error,Cloud Platform Team,HR Operations,Closed,61.59,72,False,False,No,N/A,N/A,False,Medium,1.4
+INC100479,2024-09-24 17:27,2024-09-25 02:47,2024-09-25 01:27,P2,Database Performance,Cloud Platform Team,Supply Chain,Resolved,9.34,8,True,False,No,N/A,N/A,False,Medium,9.6
+INC100182,2024-09-25 08:45,2024-09-25 17:36,2024-09-25 16:45,P2,Cloud Service Disruption,Cloud Platform Team,Retail Banking,Resolved,8.86,8,True,False,No,N/A,N/A,False,Medium,7.8
+INC100519,2024-09-26 02:27,2024-09-26 17:59,2024-09-27 02:27,P3,Data Corruption,Cloud Platform Team,HR Operations,Resolved,15.54,24,False,False,No,N/A,N/A,False,Low,3.6
+INC100404,2024-09-26 16:12,2024-10-07 04:28,2024-09-29 16:12,P4,Third-Party Integration Failure,Cybersecurity Response,HR Operations,Closed,252.28,72,True,False,No,N/A,N/A,False,Medium,4.2
+INC100407,2024-09-27 14:03,2024-09-28 10:12,2024-09-28 14:03,P3,Security Breach,Service Desk L1,Supply Chain,Resolved,20.17,24,False,False,Yes,CHG200407,Standard,False,Low,3.3
+INC100081,2024-09-27 21:05,2024-09-28 04:04,2024-09-28 01:05,P1,Application Error,Cybersecurity Response,HR Operations,Closed,6.99,4,True,True,Yes,CHG200081,Standard,False,Medium,10.0
+INC100200,2024-09-27 23:23,2024-09-28 02:05,2024-09-28 23:23,P3,Application Error,Cloud Platform Team,Wealth Management,Resolved,2.7,24,False,False,No,N/A,N/A,False,Medium,3.2
+INC100334,2024-09-28 03:05,2024-09-30 17:14,2024-10-01 03:05,P4,Third-Party Integration Failure,Infrastructure Engineering,Customer Service,Resolved,62.16,72,False,False,No,N/A,N/A,False,Low,2.5
+INC100010,2024-09-28 04:15,2024-10-02 23:31,2024-10-01 04:15,P4,Data Corruption,Service Desk L1,Wealth Management,Resolved,115.27,72,True,False,No,N/A,N/A,False,Low,4.7
+INC100030,2024-09-28 12:08,2024-09-28 14:31,2024-09-28 20:08,P2,Batch Job Failure,Identity & Access Management,HR Operations,Resolved,2.39,8,False,False,No,N/A,N/A,False,High,6.8
+INC100332,2024-10-05 07:04,2024-10-07 02:32,2024-10-06 07:04,P3,Access Management,Identity & Access Management,Customer Service,Closed,43.47,24,True,False,No,N/A,N/A,False,Low,6.0
+INC100426,2024-10-07 12:21,2024-10-07 18:27,2024-10-07 20:21,P2,Data Corruption,Enterprise Architecture,HR Operations,Closed,6.11,8,False,False,No,N/A,N/A,False,High,6.4
+INC100001,2024-10-08 07:14,2024-10-09 09:16,2024-10-09 07:14,P3,Batch Job Failure,Application Support L2,Finance,Resolved,26.04,24,True,False,Yes,CHG200001,Standard,False,Medium,5.7
+INC100316,2024-10-11 02:19,2024-10-11 05:54,2024-10-11 06:19,P1,Batch Job Failure,DevOps Engineering,Wealth Management,Closed,3.59,4,False,False,Yes,CHG200316,Standard,False,Medium,8.4
+INC100020,2024-10-12 21:31,2024-10-16 17:51,2024-10-15 21:31,P4,Access Management,Application Support L2,HR Operations,Closed,92.34,72,True,False,No,N/A,N/A,False,Low,3.9
+INC100458,2024-10-14 04:57,2024-10-14 15:24,2024-10-15 04:57,P3,Batch Job Failure,Enterprise Architecture,Retail Banking,Resolved,10.46,24,False,False,No,N/A,N/A,False,Low,3.4
+INC100448,2024-10-15 14:24,2024-10-16 15:57,2024-10-16 14:24,P3,Hardware Failure,Infrastructure Engineering,Retail Banking,Resolved,25.56,24,True,False,No,N/A,N/A,False,Low,6.5
+INC100477,2024-10-17 19:56,2024-10-19 03:19,2024-10-18 03:56,P2,Third-Party Integration Failure,Cybersecurity Response,Retail Banking,Resolved,31.39,8,True,False,No,N/A,N/A,False,Low,8.7
+INC100108,2024-10-20 07:38,2024-10-21 23:30,2024-10-21 07:38,P3,Batch Job Failure,Network Operations,Customer Service,Closed,39.88,24,True,False,No,N/A,N/A,False,Low,5.6
+INC100560,2024-10-21 00:21,2024-10-23 11:25,2024-10-24 00:21,P4,Security Breach,Enterprise Architecture,Wealth Management,Resolved,59.08,72,False,False,No,N/A,N/A,False,Low,1.6
+INC100089,2024-10-22 21:25,2024-10-26 08:26,2024-10-25 21:25,P4,Access Management,Cloud Platform Team,Customer Service,Resolved,83.03,72,True,False,No,N/A,N/A,False,Low,4.0
+INC100138,2024-10-23 10:07,2024-10-23 18:11,2024-10-23 18:07,P2,Security Breach,Database Administration,Supply Chain,Closed,8.08,8,True,False,Yes,CHG200138,Emergency,False,Low,9.7
+INC100453,2024-10-24 21:04,2024-10-26 18:03,2024-10-27 21:04,P4,Third-Party Integration Failure,DevOps Engineering,Retail Banking,Closed,44.99,72,False,False,No,N/A,N/A,False,Low,0.8
+INC100082,2024-10-25 01:14,2024-10-25 07:19,2024-10-26 01:14,P3,Capacity Exceeded,Enterprise Architecture,Customer Service,Resolved,6.09,24,False,False,No,N/A,N/A,False,Low,3.8
+INC100331,2024-10-25 08:54,2024-10-26 02:25,2024-10-26 08:54,P3,Data Corruption,Database Administration,HR Operations,Closed,17.52,24,False,False,No,N/A,N/A,False,Low,3.9
+INC100326,2024-10-25 18:50,2024-10-26 09:54,2024-10-26 18:50,P3,Network Outage,Identity & Access Management,HR Operations,Closed,15.08,24,False,False,No,N/A,N/A,False,Low,3.6
+INC100292,2024-10-26 01:17,2024-10-26 12:39,2024-10-26 09:17,P2,Authentication Failure,Network Operations,HR Operations,Closed,11.38,8,True,False,Yes,CHG200292,Normal,True,Medium,8.9
+INC100172,2024-10-27 06:02,2024-10-30 20:29,2024-10-30 06:02,P4,Capacity Exceeded,Service Desk L1,Finance,Resolved,86.47,72,True,False,No,N/A,N/A,False,Low,3.3
+INC100110,2024-10-29 10:47,2024-10-31 06:09,2024-11-01 10:47,P4,Capacity Exceeded,Database Administration,Retail Banking,Closed,43.38,72,False,False,No,N/A,N/A,False,Low,1.1
+INC100312,2024-10-29 20:03,2024-10-31 00:11,2024-10-30 20:03,P3,Cloud Service Disruption,Cybersecurity Response,Corporate IT,Closed,28.14,24,True,False,No,N/A,N/A,False,Medium,5.6
+INC100235,2024-11-01 14:43,2024-11-02 13:09,2024-11-02 14:43,P3,Security Breach,Network Operations,Finance,Closed,22.44,24,False,False,No,N/A,N/A,False,Medium,3.1
+INC100219,2024-11-01 18:38,2024-11-07 04:48,2024-11-04 18:38,P4,Hardware Failure,Network Operations,Finance,Closed,130.17,72,True,False,Yes,CHG200219,Normal,True,Medium,5.0
+INC100549,2024-11-03 02:36,2024-11-03 13:17,2024-11-04 02:36,P3,Security Breach,Cybersecurity Response,Supply Chain,Closed,10.69,24,False,False,No,N/A,N/A,False,Low,4.6
+INC100375,2024-11-03 23:28,2024-11-04 14:39,2024-11-04 07:28,P2,Application Error,Cybersecurity Response,Wealth Management,Resolved,15.19,8,True,False,No,N/A,N/A,False,Medium,8.0
+INC100106,2024-11-05 06:24,2024-11-05 18:26,2024-11-05 14:24,P2,Capacity Exceeded,Infrastructure Engineering,Customer Service,Resolved,12.04,8,True,False,No,N/A,N/A,False,Low,8.7
+INC100047,2024-11-07 09:13,2024-11-12 21:54,2024-11-10 09:13,P4,Data Corruption,DevOps Engineering,Finance,Resolved,132.68,72,True,False,No,N/A,N/A,False,Low,4.5
+INC100116,2024-11-07 15:07,2024-11-07 23:04,2024-11-08 15:07,P3,Database Performance,Network Operations,Finance,Closed,7.96,24,False,False,Yes,CHG200116,Emergency,True,Low,4.1
+INC100585,2024-11-11 09:46,2024-11-12 12:03,2024-11-14 09:46,P4,Database Performance,Network Operations,Corporate IT,Closed,26.29,72,False,False,No,N/A,N/A,False,Medium,2.6
+INC100064,2024-11-14 03:37,2024-11-15 01:31,2024-11-15 03:37,P3,Capacity Exceeded,Application Support L2,Wealth Management,Closed,21.9,24,False,False,Yes,CHG200064,Normal,False,Low,3.6
+INC100195,2024-11-16 22:20,2024-11-19 01:52,2024-11-17 22:20,P3,Access Management,Enterprise Architecture,Wealth Management,Resolved,51.54,24,True,False,No,N/A,N/A,False,Medium,5.9
+INC100290,2024-11-18 14:39,2024-11-18 21:17,2024-11-18 22:39,P2,Hardware Failure,Database Administration,Wealth Management,Closed,6.64,8,False,False,Yes,CHG200290,Normal,False,Medium,6.7
+INC100498,2024-11-19 22:00,2024-11-20 01:57,2024-11-20 06:00,P2,Third-Party Integration Failure,Application Support L2,Customer Service,Resolved,3.96,8,False,False,Yes,CHG200498,Standard,True,Low,7.6
+INC100266,2024-11-20 11:06,2024-11-21 10:32,2024-11-23 11:06,P4,Data Corruption,Database Administration,Corporate IT,Resolved,23.44,72,False,False,Yes,CHG200266,Normal,False,Medium,1.4
+INC100531,2024-11-20 17:50,2024-11-21 04:07,2024-11-21 01:50,P2,Database Performance,Service Desk L1,HR Operations,Resolved,10.29,8,True,False,No,N/A,N/A,False,Medium,8.3
+INC100571,2024-11-21 02:35,2024-11-21 06:09,2024-11-22 02:35,P3,Batch Job Failure,Enterprise Architecture,Wealth Management,Resolved,3.57,24,False,False,No,N/A,N/A,False,Medium,3.6
+INC100163,2024-11-22 03:53,2024-11-22 12:58,2024-11-22 11:53,P2,Access Management,Cybersecurity Response,Finance,Resolved,9.09,8,True,False,No,N/A,N/A,False,High,7.8
+INC100196,2024-11-22 07:29,2024-11-22 10:44,2024-11-23 07:29,P3,Access Management,DevOps Engineering,Retail Banking,Resolved,3.26,24,False,False,Yes,CHG200196,Normal,True,Low,4.1
+INC100358,2024-11-22 08:06,2024-11-22 20:01,2024-11-23 08:06,P3,Network Outage,Infrastructure Engineering,Finance,Closed,11.92,24,False,False,Yes,CHG200358,Standard,False,Low,3.3
+INC100349,2024-11-27 01:01,2024-11-28 00:26,2024-11-30 01:01,P4,Database Performance,Identity & Access Management,Wealth Management,Resolved,23.42,72,False,False,Yes,CHG200349,Emergency,False,Low,2.4
+INC100553,2024-11-30 16:44,2024-11-30 19:02,2024-11-30 20:44,P1,Cloud Service Disruption,Enterprise Architecture,Wealth Management,Closed,2.3,4,False,False,Yes,CHG200553,Standard,False,Low,8.2
+INC100335,2024-12-01 04:05,2024-12-01 09:21,2024-12-01 08:05,P1,Authentication Failure,Network Operations,HR Operations,Resolved,5.27,4,True,False,No,N/A,N/A,False,High,10.0
+INC100204,2024-12-01 19:20,2024-12-02 02:47,2024-12-04 19:20,P4,Authentication Failure,DevOps Engineering,Wealth Management,Resolved,7.45,72,False,False,No,N/A,N/A,False,Low,1.1
+INC100599,2024-12-04 10:59,2024-12-04 17:30,2024-12-05 10:59,P3,Network Outage,Database Administration,HR Operations,Closed,6.52,24,False,False,No,N/A,N/A,False,Low,2.7
+INC100360,2024-12-05 06:12,2024-12-05 14:13,2024-12-06 06:12,P3,Database Performance,Network Operations,Retail Banking,Resolved,8.02,24,False,False,No,N/A,N/A,False,Low,3.7
+INC100096,2024-12-06 17:48,2024-12-06 21:46,2024-12-07 01:48,P2,Cloud Service Disruption,Service Desk L1,Legal & Compliance,Closed,3.98,8,False,False,No,N/A,N/A,False,High,3.9
+INC100152,2024-12-07 02:37,2024-12-11 01:27,2024-12-10 02:37,P4,Batch Job Failure,Enterprise Architecture,Wealth Management,Resolved,94.85,72,True,False,No,N/A,N/A,False,Low,4.2
+INC100504,2024-12-08 08:23,2024-12-08 12:06,2024-12-08 16:23,P2,Batch Job Failure,Application Support L2,Customer Service,Resolved,3.72,8,False,False,No,N/A,N/A,False,Medium,6.0
+INC100374,2024-12-11 09:19,2024-12-12 03:52,2024-12-12 09:19,P3,Hardware Failure,Identity & Access Management,Finance,Closed,18.56,24,False,False,No,N/A,N/A,False,Low,4.2
+INC100490,2024-12-13 14:43,2024-12-19 06:30,2024-12-16 14:43,P4,Authentication Failure,Service Desk L1,HR Operations,Resolved,135.8,72,True,False,No,N/A,N/A,False,Low,4.8
+INC100281,2024-12-17 14:50,2024-12-19 15:05,2024-12-20 14:50,P4,Database Performance,Identity & Access Management,Supply Chain,Closed,48.25,72,False,False,No,N/A,N/A,False,Medium,1.0
+INC100388,2024-12-17 23:45,2024-12-20 00:26,2024-12-18 23:45,P3,Data Corruption,Network Operations,HR Operations,Closed,48.69,24,True,False,No,N/A,N/A,False,Low,6.7
+INC100380,2024-12-18 05:53,2024-12-18 10:44,2024-12-18 13:53,P2,Authentication Failure,DevOps Engineering,Legal & Compliance,Resolved,4.85,8,False,False,No,N/A,N/A,False,Medium,5.9
+INC100241,2024-12-18 20:42,2024-12-27 05:43,2024-12-21 20:42,P4,Cloud Service Disruption,Service Desk L1,Finance,Resolved,201.03,72,True,False,No,N/A,N/A,False,Low,4.7
+INC100280,2024-12-19 00:30,2024-12-20 16:52,2024-12-22 00:30,P4,Third-Party Integration Failure,Enterprise Architecture,Wealth Management,Resolved,40.37,72,False,False,Yes,CHG200280,Normal,False,Low,1.2
+INC100143,2024-12-23 11:46,2024-12-26 15:10,2024-12-26 11:46,P4,Cloud Service Disruption,DevOps Engineering,HR Operations,Closed,75.4,72,True,False,No,N/A,N/A,False,Medium,4.4
+INC100310,2024-12-25 13:20,2024-12-27 05:29,2024-12-28 13:20,P4,Application Error,Enterprise Architecture,Corporate IT,Closed,40.15,72,False,False,No,N/A,N/A,False,Medium,2.1
+INC100130,2024-12-26 03:36,2024-12-26 07:14,2024-12-26 11:36,P2,Network Outage,Infrastructure Engineering,Supply Chain,Closed,3.65,8,False,False,No,N/A,N/A,False,High,6.2
+INC100429,2024-12-26 17:30,2024-12-28 21:56,2024-12-27 17:30,P3,Batch Job Failure,Identity & Access Management,Retail Banking,Closed,52.45,24,True,False,No,N/A,N/A,False,Low,6.7
+INC100466,2024-12-27 11:31,2024-12-28 14:50,2024-12-28 11:31,P3,Security Breach,DevOps Engineering,Corporate IT,Resolved,27.33,24,True,False,No,N/A,N/A,False,Medium,5.5
+INC100340,2024-12-28 06:58,2024-12-28 22:23,2024-12-29 06:58,P3,Batch Job Failure,Cloud Platform Team,Wealth Management,Resolved,15.42,24,False,False,No,N/A,N/A,False,Medium,2.4
+INC100038,2024-12-28 17:56,2024-12-28 23:16,2024-12-29 01:56,P2,Batch Job Failure,Cybersecurity Response,Retail Banking,Closed,5.34,8,False,False,No,N/A,N/A,False,High,5.7
+INC100248,2025-01-03 16:56,2025-01-04 14:45,2025-01-04 16:56,P3,Access Management,Infrastructure Engineering,Supply Chain,Resolved,21.83,24,False,False,No,N/A,N/A,False,Low,3.2
+INC100067,2025-01-05 20:57,2025-01-06 19:35,2025-01-06 04:57,P2,Third-Party Integration Failure,Application Support L2,Corporate IT,Closed,22.64,8,True,False,No,N/A,N/A,False,Low,8.6
+INC100201,2025-01-06 17:18,2025-01-06 23:53,2025-01-07 01:18,P2,Authentication Failure,DevOps Engineering,HR Operations,Resolved,6.58,8,False,False,Yes,CHG200201,Emergency,False,Low,6.1
+INC100150,2025-01-07 11:58,2025-01-09 12:46,2025-01-10 11:58,P4,Cloud Service Disruption,DevOps Engineering,Wealth Management,Closed,48.81,72,False,False,No,N/A,N/A,False,Low,0.8
+INC100286,2025-01-09 10:12,2025-01-17 02:32,2025-01-12 10:12,P4,Authentication Failure,Application Support L2,Wealth Management,Resolved,184.34,72,True,False,No,N/A,N/A,False,Low,4.2
+INC100539,2025-01-10 07:38,2025-01-10 09:09,2025-01-10 15:38,P2,Authentication Failure,Infrastructure Engineering,Finance,Resolved,1.52,8,False,False,No,N/A,N/A,False,High,5.7
+INC100249,2025-01-14 10:26,2025-01-16 08:02,2025-01-15 10:26,P3,Third-Party Integration Failure,Identity & Access Management,HR Operations,Resolved,45.6,24,True,False,Yes,CHG200249,Standard,False,Low,5.0
+INC100409,2025-01-16 10:11,2025-01-17 02:42,2025-01-17 10:11,P3,Authentication Failure,Infrastructure Engineering,Retail Banking,Resolved,16.52,24,False,False,Yes,CHG200409,Normal,False,Low,4.6
+INC100383,2025-01-20 11:29,2025-01-21 11:08,2025-01-21 11:29,P3,Hardware Failure,Infrastructure Engineering,Corporate IT,Closed,23.65,24,False,False,No,N/A,N/A,False,Low,3.6
+INC100134,2025-01-20 13:29,2025-01-21 11:57,2025-01-20 21:29,P2,Application Error,DevOps Engineering,HR Operations,Resolved,22.48,8,True,False,Yes,CHG200134,Normal,True,Low,8.8
+INC100562,2025-01-20 18:57,2025-01-21 21:33,2025-01-21 18:57,P3,Capacity Exceeded,Database Administration,Finance,Resolved,26.61,24,True,False,No,N/A,N/A,False,Medium,6.0
+INC100465,2025-01-20 20:24,2025-01-21 04:43,2025-01-21 04:24,P2,Authentication Failure,DevOps Engineering,Wealth Management,Resolved,8.32,8,True,False,No,N/A,N/A,False,Medium,8.1
+INC100436,2025-01-21 01:27,2025-01-21 12:55,2025-01-21 09:27,P2,Capacity Exceeded,DevOps Engineering,Retail Banking,Resolved,11.47,8,True,True,Yes,CHG200436,Normal,True,Medium,9.4
+INC100584,2025-01-22 17:24,2025-01-24 00:26,2025-01-23 17:24,P3,Data Corruption,DevOps Engineering,Wealth Management,Closed,31.04,24,True,False,Yes,CHG200584,Standard,False,Medium,5.4
+INC100258,2025-01-23 12:35,2025-01-25 17:20,2025-01-26 12:35,P4,Network Outage,Application Support L2,Corporate IT,Resolved,52.75,72,False,False,No,N/A,N/A,False,Medium,1.1
+INC100233,2025-01-26 14:55,2025-01-27 05:07,2025-01-26 22:55,P2,Batch Job Failure,Cloud Platform Team,Legal & Compliance,Closed,14.21,8,True,False,No,N/A,N/A,False,Low,7.7
+INC100262,2025-01-28 23:08,2025-01-29 07:23,2025-01-31 23:08,P4,Batch Job Failure,DevOps Engineering,Legal & Compliance,Resolved,8.26,72,False,False,No,N/A,N/A,False,Low,1.4
+INC100268,2025-01-29 00:18,2025-01-29 09:54,2025-01-29 08:18,P2,Application Error,Enterprise Architecture,Legal & Compliance,Resolved,9.61,8,True,False,No,N/A,N/A,False,Low,8.0
+INC100441,2025-01-30 08:34,2025-01-31 04:42,2025-01-31 08:34,P3,Access Management,Cloud Platform Team,Retail Banking,Resolved,20.14,24,False,False,No,N/A,N/A,False,Low,3.7
+INC100356,2025-01-30 14:46,2025-01-30 19:26,2025-01-30 18:46,P1,Capacity Exceeded,Network Operations,Finance,Closed,4.67,4,True,False,No,N/A,N/A,False,Medium,10.0
+INC100425,2025-01-31 21:38,2025-02-02 16:56,2025-02-01 21:38,P3,Capacity Exceeded,Database Administration,Retail Banking,Resolved,43.32,24,True,False,No,N/A,N/A,False,Low,5.2
+INC100370,2025-02-01 17:25,2025-02-01 20:41,2025-02-02 17:25,P3,Access Management,Application Support L2,Retail Banking,Resolved,3.27,24,False,False,No,N/A,N/A,False,Medium,3.4
+INC100285,2025-02-02 00:45,2025-02-04 21:43,2025-02-05 00:45,P4,Third-Party Integration Failure,Enterprise Architecture,Corporate IT,Resolved,68.98,72,False,False,No,N/A,N/A,False,Medium,1.1
+INC100526,2025-02-02 21:19,2025-02-03 08:44,2025-02-05 21:19,P4,Cloud Service Disruption,Cybersecurity Response,Customer Service,Closed,11.42,72,False,False,No,N/A,N/A,False,Medium,1.8
+INC100169,2025-02-03 15:02,2025-02-03 17:23,2025-02-03 19:02,P1,Application Error,DevOps Engineering,Finance,Resolved,2.36,4,False,False,No,N/A,N/A,False,High,8.4
+INC100422,2025-02-06 06:29,2025-02-07 08:31,2025-02-07 06:29,P3,Security Breach,Cybersecurity Response,Retail Banking,Closed,26.04,24,True,False,No,N/A,N/A,False,Medium,5.3
+INC100361,2025-02-06 18:35,2025-02-07 20:36,2025-02-09 18:35,P4,Security Breach,Application Support L2,Finance,Closed,26.02,72,False,False,No,N/A,N/A,False,Medium,1.9
+INC100556,2025-02-08 20:36,2025-02-10 11:45,2025-02-09 20:36,P3,Cloud Service Disruption,Cybersecurity Response,Customer Service,Closed,39.15,24,True,False,No,N/A,N/A,False,Low,5.7
+INC100142,2025-02-09 09:47,2025-02-09 21:49,2025-02-09 17:47,P2,Data Corruption,DevOps Engineering,Retail Banking,Resolved,12.04,8,True,False,Yes,CHG200142,Normal,False,High,8.7
+INC100261,2025-02-11 02:19,2025-02-13 07:22,2025-02-14 02:19,P4,Network Outage,Cybersecurity Response,Wealth Management,Closed,53.06,72,False,False,No,N/A,N/A,False,Low,2.4
+INC100503,2025-02-11 03:44,2025-02-13 05:57,2025-02-14 03:44,P4,Hardware Failure,DevOps Engineering,Finance,Closed,50.23,72,False,False,No,N/A,N/A,False,Low,2.0
+INC100119,2025-02-11 08:12,2025-02-11 19:48,2025-02-11 16:12,P2,Cloud Service Disruption,Identity & Access Management,Finance,Closed,11.6,8,True,True,No,N/A,N/A,False,High,9.2
+INC100127,2025-02-12 13:46,2025-02-13 07:15,2025-02-13 13:46,P3,Data Corruption,Identity & Access Management,Customer Service,Resolved,17.5,24,False,False,Yes,CHG200127,Normal,True,Medium,4.1
+INC100300,2025-02-16 16:47,2025-02-16 21:50,2025-02-17 00:47,P2,Third-Party Integration Failure,Application Support L2,Retail Banking,Closed,5.05,8,False,False,Yes,CHG200300,Normal,False,High,6.3
+INC100022,2025-02-16 23:21,2025-02-17 21:22,2025-02-19 23:21,P4,Network Outage,Application Support L2,Finance,Resolved,22.03,72,False,False,No,N/A,N/A,False,Medium,1.2
+INC100399,2025-02-17 00:14,2025-02-21 22:42,2025-02-20 00:14,P4,Access Management,Cybersecurity Response,Wealth Management,Closed,118.47,72,True,False,No,N/A,N/A,False,Medium,4.5
+INC100090,2025-02-17 16:52,2025-02-20 08:02,2025-02-20 16:52,P4,Hardware Failure,Identity & Access Management,Retail Banking,Closed,63.17,72,False,False,No,N/A,N/A,False,Medium,0.5
+INC100216,2025-02-20 20:59,2025-02-21 07:58,2025-02-21 20:59,P3,Network Outage,DevOps Engineering,Wealth Management,Closed,10.99,24,False,False,No,N/A,N/A,False,Medium,3.2
+INC100291,2025-02-22 21:31,2025-02-23 05:32,2025-02-23 05:31,P2,Cloud Service Disruption,DevOps Engineering,Customer Service,Closed,8.02,8,True,False,No,N/A,N/A,False,High,8.1
+INC100187,2025-02-23 18:04,2025-03-02 12:14,2025-02-26 18:04,P4,Capacity Exceeded,Service Desk L1,Corporate IT,Closed,162.18,72,True,False,Yes,CHG200187,Normal,False,Low,3.2
+INC100372,2025-02-24 08:24,2025-02-24 13:16,2025-02-24 16:24,P2,Application Error,Infrastructure Engineering,Legal & Compliance,Closed,4.88,8,False,False,No,N/A,N/A,False,Medium,5.5
+INC100298,2025-02-25 01:17,2025-02-28 03:43,2025-02-28 01:17,P4,Cloud Service Disruption,Application Support L2,Wealth Management,Closed,74.44,72,True,False,No,N/A,N/A,False,Medium,4.0
+INC100518,2025-02-25 17:27,2025-02-26 07:09,2025-02-26 17:27,P3,Cloud Service Disruption,Identity & Access Management,HR Operations,Closed,13.7,24,False,False,No,N/A,N/A,False,Low,3.9
+INC100545,2025-02-26 20:27,2025-03-01 21:29,2025-02-27 20:27,P3,Cloud Service Disruption,Identity & Access Management,Legal & Compliance,Resolved,73.05,24,True,False,No,N/A,N/A,False,Low,6.6
+INC100509,2025-02-27 05:11,2025-03-05 06:33,2025-03-02 05:11,P4,Access Management,Enterprise Architecture,Customer Service,Closed,145.37,72,True,False,No,N/A,N/A,False,Low,3.6
+INC100240,2025-02-27 09:17,2025-02-28 16:04,2025-02-28 09:17,P3,Batch Job Failure,DevOps Engineering,HR Operations,Closed,30.79,24,True,False,Yes,CHG200240,Emergency,False,Low,6.0
+INC100572,2025-02-27 13:19,2025-02-28 14:56,2025-02-28 13:19,P3,Capacity Exceeded,Network Operations,Legal & Compliance,Resolved,25.63,24,True,False,No,N/A,N/A,False,Medium,5.9
+INC100136,2025-02-28 08:13,2025-03-02 23:20,2025-03-01 08:13,P3,Data Corruption,Service Desk L1,Customer Service,Resolved,63.12,24,True,False,No,N/A,N/A,False,Medium,6.2
+INC100468,2025-02-28 10:46,2025-03-01 17:30,2025-03-01 10:46,P3,Authentication Failure,Application Support L2,HR Operations,Closed,30.74,24,True,False,Yes,CHG200468,Emergency,False,Low,5.3
+INC100056,2025-03-01 01:13,2025-03-03 02:36,2025-03-02 01:13,P3,Access Management,DevOps Engineering,Customer Service,Closed,49.39,24,True,False,No,N/A,N/A,False,Low,6.0
+INC100569,2025-03-03 07:36,2025-03-03 10:19,2025-03-03 15:36,P2,Cloud Service Disruption,Enterprise Architecture,HR Operations,Resolved,2.73,8,False,False,Yes,CHG200569,Normal,False,High,6.4
+INC100023,2025-03-08 05:17,2025-03-11 16:30,2025-03-11 05:17,P4,Cloud Service Disruption,Service Desk L1,Wealth Management,Resolved,83.23,72,True,False,No,N/A,N/A,False,Low,3.4
+INC100294,2025-03-11 03:47,2025-03-16 10:44,2025-03-14 03:47,P4,Capacity Exceeded,Service Desk L1,HR Operations,Closed,126.96,72,True,False,No,N/A,N/A,False,Medium,4.7
+INC100279,2025-03-16 03:00,2025-03-16 05:16,2025-03-17 03:00,P3,Authentication Failure,Cloud Platform Team,Legal & Compliance,Closed,2.28,24,False,False,Yes,CHG200279,Standard,False,Low,2.7
+INC100037,2025-03-16 04:02,2025-03-19 20:04,2025-03-19 04:02,P4,Authentication Failure,DevOps Engineering,Wealth Management,Resolved,88.04,72,True,False,No,N/A,N/A,False,Medium,4.4
+INC100103,2025-03-17 04:15,2025-03-18 23:40,2025-03-20 04:15,P4,Hardware Failure,Identity & Access Management,Legal & Compliance,Closed,43.43,72,False,False,No,N/A,N/A,False,Medium,2.2
+INC100086,2025-03-18 23:20,2025-03-24 05:18,2025-03-21 23:20,P4,Third-Party Integration Failure,Application Support L2,Finance,Resolved,125.98,72,True,True,No,N/A,N/A,False,Low,4.5
+INC100157,2025-03-24 01:26,2025-03-24 09:10,2025-03-25 01:26,P3,Database Performance,Database Administration,Wealth Management,Closed,7.75,24,False,False,No,N/A,N/A,False,Low,3.6
+INC100275,2025-03-24 09:53,2025-03-31 07:40,2025-03-27 09:53,P4,Network Outage,Service Desk L1,HR Operations,Closed,165.79,72,True,False,No,N/A,N/A,False,Medium,2.7
+INC100522,2025-03-24 23:00,2025-03-27 06:09,2025-03-27 23:00,P4,Hardware Failure,Infrastructure Engineering,Wealth Management,Closed,55.15,72,False,True,No,N/A,N/A,False,Medium,2.7
+INC100054,2025-03-26 02:45,2025-03-26 21:37,2025-03-27 02:45,P3,Third-Party Integration Failure,Cybersecurity Response,Supply Chain,Resolved,18.87,24,False,False,No,N/A,N/A,False,Low,2.9
+INC100376,2025-03-28 06:58,2025-03-29 03:25,2025-03-29 06:58,P3,Authentication Failure,Application Support L2,HR Operations,Closed,20.46,24,False,False,No,N/A,N/A,False,Low,4.0
+INC100525,2025-03-29 07:47,2025-03-31 11:45,2025-04-01 07:47,P4,Application Error,Cybersecurity Response,Corporate IT,Closed,51.98,72,False,False,No,N/A,N/A,False,Medium,1.9
+INC100052,2025-03-29 19:52,2025-03-31 08:38,2025-03-30 19:52,P3,Batch Job Failure,DevOps Engineering,Legal & Compliance,Closed,36.77,24,True,False,No,N/A,N/A,False,Low,5.7
+INC100118,2025-03-30 14:15,2025-03-30 22:15,2025-03-31 14:15,P3,Network Outage,Identity & Access Management,HR Operations,Resolved,8.02,24,False,False,No,N/A,N/A,False,Low,3.3
+INC100462,2025-04-01 05:11,2025-04-02 13:01,2025-04-02 05:11,P3,Batch Job Failure,Database Administration,Wealth Management,Closed,31.84,24,True,False,No,N/A,N/A,False,Low,6.1
+INC100506,2025-04-02 02:24,2025-04-02 15:45,2025-04-05 02:24,P4,Access Management,Identity & Access Management,Customer Service,Closed,13.35,72,False,False,No,N/A,N/A,False,Medium,1.6
+INC100072,2025-04-03 00:05,2025-04-05 00:23,2025-04-04 00:05,P3,Capacity Exceeded,Service Desk L1,Customer Service,Closed,48.31,24,True,False,No,N/A,N/A,False,Low,5.9
+INC100053,2025-04-05 08:48,2025-04-05 13:13,2025-04-06 08:48,P3,Third-Party Integration Failure,Database Administration,Customer Service,Resolved,4.43,24,False,False,No,N/A,N/A,False,Low,2.9
+INC100244,2025-04-05 11:05,2025-04-06 10:15,2025-04-06 11:05,P3,Security Breach,Identity & Access Management,Retail Banking,Closed,23.18,24,False,False,No,N/A,N/A,False,Low,3.7
+INC100148,2025-04-05 18:41,2025-04-06 10:07,2025-04-06 18:41,P3,Data Corruption,Service Desk L1,Finance,Closed,15.43,24,False,False,No,N/A,N/A,False,Medium,3.2
+INC100423,2025-04-06 14:42,2025-04-07 00:00,2025-04-07 14:42,P3,Data Corruption,Network Operations,Retail Banking,Closed,9.3,24,False,False,No,N/A,N/A,False,Medium,3.3
+INC100446,2025-04-06 20:25,2025-04-07 03:09,2025-04-07 00:25,P1,Hardware Failure,Cloud Platform Team,Corporate IT,Resolved,6.75,4,True,False,No,N/A,N/A,False,High,10.0
+INC100582,2025-04-09 18:57,2025-04-10 02:53,2025-04-12 18:57,P4,Third-Party Integration Failure,Network Operations,Wealth Management,Closed,7.94,72,False,False,No,N/A,N/A,False,Medium,1.9
+INC100488,2025-04-10 12:36,2025-04-10 21:53,2025-04-10 20:36,P2,Security Breach,Enterprise Architecture,HR Operations,Resolved,9.3,8,True,False,Yes,CHG200488,Standard,False,Low,9.2
+INC100321,2025-04-11 16:23,2025-04-12 02:57,2025-04-12 00:23,P2,Batch Job Failure,Application Support L2,Customer Service,Closed,10.58,8,True,False,Yes,CHG200321,Emergency,True,High,10.0
+INC100271,2025-04-13 03:08,2025-04-13 09:13,2025-04-13 11:08,P2,Authentication Failure,Enterprise Architecture,HR Operations,Closed,6.09,8,False,False,Yes,CHG200271,Normal,True,Medium,6.0
+INC100124,2025-04-14 20:01,2025-04-18 04:37,2025-04-17 20:01,P4,Authentication Failure,Network Operations,Supply Chain,Closed,80.61,72,True,False,Yes,CHG200124,Normal,False,Low,3.5
+INC100580,2025-04-17 05:27,2025-04-17 18:47,2025-04-18 05:27,P3,Data Corruption,Infrastructure Engineering,Supply Chain,Resolved,13.35,24,False,False,No,N/A,N/A,False,Medium,3.1
+INC100159,2025-04-17 09:49,2025-04-18 20:11,2025-04-18 09:49,P3,Access Management,Enterprise Architecture,Customer Service,Closed,34.38,24,True,False,No,N/A,N/A,False,Medium,6.0
+INC100147,2025-04-17 14:02,2025-04-20 04:41,2025-04-20 14:02,P4,Cloud Service Disruption,Application Support L2,Supply Chain,Resolved,62.65,72,False,False,Yes,CHG200147,Normal,True,Low,2.1
+INC100457,2025-04-18 14:22,2025-04-19 11:31,2025-04-19 14:22,P3,Database Performance,Identity & Access Management,Customer Service,Closed,21.16,24,False,False,No,N/A,N/A,False,Medium,3.7
+INC100391,2025-04-19 03:30,2025-04-19 21:58,2025-04-20 03:30,P3,Access Management,Infrastructure Engineering,Supply Chain,Resolved,18.48,24,False,False,Yes,CHG200391,Emergency,False,Medium,3.3
+INC100461,2025-04-20 16:32,2025-04-21 10:39,2025-04-21 16:32,P3,Authentication Failure,Infrastructure Engineering,Wealth Management,Closed,18.12,24,False,False,Yes,CHG200461,Normal,False,Low,3.6
+INC100325,2025-04-21 09:49,2025-04-22 19:29,2025-04-22 09:49,P3,Network Outage,Cloud Platform Team,Retail Banking,Resolved,33.67,24,True,True,No,N/A,N/A,False,Low,5.3
+INC100068,2025-04-21 13:52,2025-04-25 06:23,2025-04-22 13:52,P3,Cloud Service Disruption,Infrastructure Engineering,Customer Service,Resolved,88.52,24,True,False,No,N/A,N/A,False,Medium,6.4
+INC100063,2025-04-21 22:16,2025-04-22 12:56,2025-04-22 06:16,P2,Batch Job Failure,Application Support L2,HR Operations,Closed,14.67,8,True,False,No,N/A,N/A,False,Low,8.1
+INC100059,2025-04-23 04:39,2025-04-24 01:00,2025-04-26 04:39,P4,Batch Job Failure,Cloud Platform Team,Wealth Management,Closed,20.37,72,False,False,No,N/A,N/A,False,Low,1.2
+INC100186,2025-04-23 17:08,2025-04-24 20:45,2025-04-24 17:08,P3,Network Outage,Identity & Access Management,Legal & Compliance,Resolved,27.62,24,True,True,No,N/A,N/A,False,Low,5.8
+INC100513,2025-04-23 17:59,2025-04-24 17:32,2025-04-24 17:59,P3,Access Management,Identity & Access Management,Customer Service,Closed,23.55,24,False,False,No,N/A,N/A,False,Low,4.8
+INC100112,2025-04-24 02:09,2025-04-26 08:43,2025-04-27 02:09,P4,Capacity Exceeded,Identity & Access Management,Retail Banking,Closed,54.57,72,False,False,No,N/A,N/A,False,Low,2.1
+INC100540,2025-04-24 20:03,2025-04-25 21:15,2025-04-25 20:03,P3,Batch Job Failure,Service Desk L1,Retail Banking,Closed,25.21,24,True,False,No,N/A,N/A,False,Low,5.8
+INC100085,2025-04-24 22:19,2025-04-25 21:14,2025-04-27 22:19,P4,Hardware Failure,Service Desk L1,Retail Banking,Resolved,22.93,72,False,False,No,N/A,N/A,False,Low,1.4
+INC100464,2025-04-25 14:56,2025-04-26 04:30,2025-04-25 22:56,P2,Cloud Service Disruption,Identity & Access Management,Corporate IT,Resolved,13.57,8,True,False,Yes,CHG200464,Emergency,True,Medium,10.0
+INC100314,2025-04-27 02:01,2025-04-28 15:18,2025-04-30 02:01,P4,Data Corruption,Identity & Access Management,Wealth Management,Resolved,37.29,72,False,False,No,N/A,N/A,False,Medium,1.8
+INC100592,2025-04-27 04:07,2025-04-27 21:18,2025-04-28 04:07,P3,Cloud Service Disruption,Application Support L2,Supply Chain,Resolved,17.19,24,False,False,No,N/A,N/A,False,Low,4.0
+INC100363,2025-04-29 03:19,2025-04-29 12:23,2025-04-29 11:19,P2,Batch Job Failure,Infrastructure Engineering,Retail Banking,Closed,9.07,8,True,False,No,N/A,N/A,False,Low,9.2
+INC100021,2025-04-29 13:12,2025-05-06 02:18,2025-05-02 13:12,P4,Authentication Failure,Service Desk L1,HR Operations,Closed,157.12,72,True,False,Yes,CHG200021,Emergency,False,Low,3.9
+INC100073,2025-04-29 17:33,2025-04-30 13:34,2025-04-30 17:33,P3,Batch Job Failure,Enterprise Architecture,Legal & Compliance,Resolved,20.02,24,False,False,No,N/A,N/A,False,Low,5.0
+INC100575,2025-04-30 04:10,2025-04-30 10:39,2025-04-30 08:10,P1,Database Performance,Cloud Platform Team,Customer Service,Resolved,6.49,4,True,False,Yes,CHG200575,Standard,False,Medium,10.0
+INC100402,2025-04-30 22:09,2025-05-05 16:30,2025-05-03 22:09,P4,Application Error,DevOps Engineering,Supply Chain,Resolved,114.35,72,True,False,No,N/A,N/A,False,Low,3.4
+INC100367,2025-05-02 09:05,2025-05-04 19:24,2025-05-03 09:05,P3,Third-Party Integration Failure,Enterprise Architecture,HR Operations,Resolved,58.33,24,True,False,No,N/A,N/A,False,Low,5.5
+INC100057,2025-05-03 00:22,2025-05-03 05:35,2025-05-03 08:22,P2,Capacity Exceeded,Network Operations,Corporate IT,Closed,5.23,8,False,False,Yes,CHG200057,Normal,False,Low,5.7
+INC100517,2025-05-03 09:00,2025-05-03 10:06,2025-05-03 13:00,P1,Cloud Service Disruption,Network Operations,Customer Service,Resolved,1.11,4,False,False,No,N/A,N/A,False,High,8.2
+INC100497,2025-05-04 17:02,2025-05-05 09:53,2025-05-05 17:02,P3,Network Outage,DevOps Engineering,Corporate IT,Closed,16.86,24,False,False,No,N/A,N/A,False,Medium,3.8
+INC100077,2025-05-05 14:21,2025-05-06 12:07,2025-05-08 14:21,P4,Authentication Failure,Infrastructure Engineering,Customer Service,Resolved,21.77,72,False,False,No,N/A,N/A,False,Low,0.5
+INC100343,2025-05-06 17:50,2025-05-06 22:59,2025-05-07 01:50,P2,Network Outage,Cloud Platform Team,Legal & Compliance,Resolved,5.16,8,False,False,No,N/A,N/A,False,High,5.3
+INC100476,2025-05-08 12:22,2025-05-09 02:10,2025-05-08 20:22,P2,Cloud Service Disruption,Cloud Platform Team,HR Operations,Resolved,13.81,8,True,False,No,N/A,N/A,False,Medium,9.5
+INC100515,2025-05-08 17:14,2025-05-09 05:27,2025-05-09 01:14,P2,Cloud Service Disruption,Infrastructure Engineering,Legal & Compliance,Closed,12.22,8,True,False,No,N/A,N/A,False,Medium,7.8
+INC100270,2025-05-10 02:23,2025-05-12 12:16,2025-05-11 02:23,P3,Hardware Failure,Cloud Platform Team,Supply Chain,Closed,57.9,24,True,False,No,N/A,N/A,False,Low,6.5
+INC100565,2025-05-11 19:34,2025-05-12 01:23,2025-05-12 03:34,P2,Cloud Service Disruption,Application Support L2,Legal & Compliance,Closed,5.83,8,False,False,Yes,CHG200565,Standard,False,Low,6.4
+INC100016,2025-05-12 02:48,2025-05-12 09:32,2025-05-12 06:48,P1,Authentication Failure,Application Support L2,Retail Banking,Closed,6.75,4,True,False,No,N/A,N/A,False,Medium,10.0
+INC100442,2025-05-13 01:18,2025-05-13 14:03,2025-05-14 01:18,P3,Cloud Service Disruption,DevOps Engineering,Customer Service,Closed,12.75,24,False,False,No,N/A,N/A,False,Medium,3.6
+INC100463,2025-05-14 07:04,2025-05-15 02:28,2025-05-15 07:04,P3,Access Management,Network Operations,HR Operations,Closed,19.4,24,False,False,No,N/A,N/A,False,Medium,3.3
+INC100058,2025-05-14 07:17,2025-05-14 17:05,2025-05-14 15:17,P2,Cloud Service Disruption,Enterprise Architecture,HR Operations,Resolved,9.81,8,True,False,No,N/A,N/A,False,Low,8.2
+INC100550,2025-05-14 22:44,2025-05-15 10:12,2025-05-15 02:44,P1,Access Management,Service Desk L1,Wealth Management,Resolved,11.48,4,True,False,No,N/A,N/A,False,Medium,9.6
+INC100264,2025-05-17 07:22,2025-05-17 23:24,2025-05-17 15:22,P2,Network Outage,Infrastructure Engineering,Customer Service,Closed,16.04,8,True,False,No,N/A,N/A,False,Low,7.6
+INC100078,2025-05-18 02:36,2025-05-21 15:59,2025-05-21 02:36,P4,Application Error,Application Support L2,Corporate IT,Resolved,85.39,72,True,False,No,N/A,N/A,False,Low,3.2
+INC100595,2025-05-19 05:56,2025-05-19 18:06,2025-05-20 05:56,P3,Authentication Failure,Service Desk L1,Customer Service,Resolved,12.18,24,False,False,No,N/A,N/A,False,Medium,2.6
+INC100302,2025-05-21 08:20,2025-05-21 20:09,2025-05-22 08:20,P3,Security Breach,Cloud Platform Team,HR Operations,Resolved,11.82,24,False,False,No,N/A,N/A,False,Medium,3.7
+INC100050,2025-05-21 12:15,2025-05-21 21:24,2025-05-22 12:15,P3,Authentication Failure,Cybersecurity Response,Corporate IT,Resolved,9.16,24,False,False,Yes,CHG200050,Emergency,True,Medium,5.7
+INC100199,2025-05-21 19:56,2025-05-23 10:11,2025-05-22 19:56,P3,Network Outage,Network Operations,Supply Chain,Closed,38.25,24,True,False,No,N/A,N/A,False,Medium,6.1
+INC100319,2025-05-23 11:33,2025-05-23 14:25,2025-05-23 15:33,P1,Database Performance,Network Operations,Wealth Management,Resolved,2.88,4,False,False,No,N/A,N/A,False,High,8.2
+INC100104,2025-05-24 18:09,2025-05-25 00:27,2025-05-25 02:09,P2,Authentication Failure,Cloud Platform Team,HR Operations,Resolved,6.32,8,False,False,Yes,CHG200104,Emergency,True,Medium,8.0
+INC100198,2025-05-25 09:31,2025-05-28 04:12,2025-05-26 09:31,P3,Third-Party Integration Failure,DevOps Engineering,Customer Service,Closed,66.69,24,True,False,Yes,CHG200198,Normal,False,Low,5.6
+INC100523,2025-05-25 11:29,2025-05-25 22:37,2025-05-25 19:29,P2,Access Management,Cloud Platform Team,Supply Chain,Resolved,11.14,8,True,False,No,N/A,N/A,False,High,8.0
+INC100417,2025-05-25 14:20,2025-05-27 08:15,2025-05-26 14:20,P3,Authentication Failure,Service Desk L1,Retail Banking,Resolved,41.92,24,True,True,Yes,CHG200417,Normal,False,Low,5.7
+INC100203,2025-05-27 01:02,2025-05-28 06:23,2025-05-28 01:02,P3,Database Performance,Cybersecurity Response,Corporate IT,Closed,29.36,24,True,False,Yes,CHG200203,Emergency,True,Medium,6.4
+INC100581,2025-05-27 03:11,2025-05-27 13:03,2025-05-27 07:11,P1,Third-Party Integration Failure,Service Desk L1,Retail Banking,Closed,9.87,4,True,False,No,N/A,N/A,False,Medium,10.0
+INC100255,2025-05-29 22:43,2025-05-30 00:48,2025-05-30 22:43,P3,Cloud Service Disruption,Infrastructure Engineering,Finance,Closed,2.09,24,False,False,No,N/A,N/A,False,Medium,3.1
+INC100330,2025-06-01 04:40,2025-06-01 12:40,2025-06-01 08:40,P1,Third-Party Integration Failure,Application Support L2,Retail Banking,Resolved,8.01,4,True,False,No,N/A,N/A,False,High,10.0
+INC100126,2025-06-01 19:27,2025-06-03 18:11,2025-06-02 19:27,P3,Cloud Service Disruption,Infrastructure Engineering,Customer Service,Closed,46.74,24,True,False,Yes,CHG200126,Emergency,True,Medium,6.2
+INC100014,2025-06-03 03:55,2025-06-03 13:23,2025-06-03 11:55,P2,Capacity Exceeded,Infrastructure Engineering,Wealth Management,Closed,9.48,8,True,False,No,N/A,N/A,False,High,9.0
+INC100459,2025-06-03 20:01,2025-06-04 06:17,2025-06-04 04:01,P2,Application Error,Application Support L2,Finance,Closed,10.27,8,True,False,No,N/A,N/A,False,High,8.5
+INC100185,2025-06-04 07:07,2025-06-04 11:54,2025-06-04 15:07,P2,Batch Job Failure,Database Administration,Legal & Compliance,Closed,4.78,8,False,False,No,N/A,N/A,False,Medium,6.8
+INC100322,2025-06-05 00:02,2025-06-09 05:59,2025-06-08 00:02,P4,Authentication Failure,Application Support L2,HR Operations,Resolved,101.96,72,True,False,No,N/A,N/A,False,Low,3.3
+INC100489,2025-06-09 08:56,2025-06-10 00:08,2025-06-10 08:56,P3,Hardware Failure,Identity & Access Management,Retail Banking,Resolved,15.2,24,False,False,No,N/A,N/A,False,Low,3.6
+INC100071,2025-06-13 06:05,2025-06-13 15:02,2025-06-14 06:05,P3,Hardware Failure,DevOps Engineering,Finance,Closed,8.96,24,False,False,No,N/A,N/A,False,Medium,4.0
+INC100018,2025-06-13 14:07,2025-06-15 11:05,2025-06-14 14:07,P3,Batch Job Failure,Identity & Access Management,Customer Service,Resolved,44.97,24,True,False,No,N/A,N/A,False,Low,6.5
+INC100209,2025-06-15 06:35,2025-06-16 21:44,2025-06-16 06:35,P3,Third-Party Integration Failure,Network Operations,Wealth Management,Closed,39.17,24,True,False,No,N/A,N/A,False,Low,5.9
+INC100478,2025-06-16 00:24,2025-06-16 15:05,2025-06-16 04:24,P1,Capacity Exceeded,Network Operations,Retail Banking,Resolved,14.69,4,True,False,No,N/A,N/A,False,High,10.0
+INC100398,2025-06-16 19:33,2025-06-18 06:26,2025-06-17 19:33,P3,Hardware Failure,Infrastructure Engineering,Customer Service,Closed,34.89,24,True,False,No,N/A,N/A,False,Low,6.2
+INC100578,2025-06-17 03:28,2025-06-18 06:01,2025-06-18 03:28,P3,Authentication Failure,Enterprise Architecture,Finance,Resolved,26.55,24,True,False,No,N/A,N/A,False,Medium,5.8
+INC100430,2025-06-19 03:01,2025-06-20 10:13,2025-06-20 03:01,P3,Hardware Failure,Cloud Platform Team,Finance,Resolved,31.21,24,True,False,No,N/A,N/A,False,Medium,6.7
+INC100137,2025-06-23 21:19,2025-06-24 10:06,2025-06-24 21:19,P3,Hardware Failure,Enterprise Architecture,Customer Service,Resolved,12.79,24,False,True,Yes,CHG200137,Normal,False,Low,3.5
+INC100313,2025-06-24 00:23,2025-06-25 09:10,2025-06-27 00:23,P4,Security Breach,Service Desk L1,Retail Banking,Closed,32.79,72,False,False,No,N/A,N/A,False,Low,1.6
+INC100017,2025-06-24 19:27,2025-06-26 20:01,2025-06-25 19:27,P3,Cloud Service Disruption,Database Administration,Supply Chain,Closed,48.58,24,True,False,No,N/A,N/A,False,Low,5.1
+INC100541,2025-06-25 01:46,2025-06-25 02:58,2025-06-25 09:46,P2,Network Outage,Enterprise Architecture,Supply Chain,Closed,1.22,8,False,False,Yes,CHG200541,Normal,True,High,7.5
+INC100566,2025-06-26 09:21,2025-06-27 02:25,2025-06-27 09:21,P3,Network Outage,Network Operations,HR Operations,Closed,17.07,24,False,True,No,N/A,N/A,False,Low,3.5
+INC100392,2025-06-26 09:26,2025-06-26 16:34,2025-06-26 17:26,P2,Cloud Service Disruption,Application Support L2,Corporate IT,Closed,7.13,8,False,False,Yes,CHG200392,Standard,True,Low,7.6
+INC100158,2025-06-30 07:19,2025-06-30 17:52,2025-06-30 15:19,P2,Hardware Failure,Service Desk L1,HR Operations,Closed,10.56,8,True,False,No,N/A,N/A,False,High,9.0
+INC100277,2025-07-01 16:59,2025-07-05 15:06,2025-07-02 16:59,P3,Third-Party Integration Failure,Enterprise Architecture,Corporate IT,Closed,94.13,24,True,False,No,N/A,N/A,False,Low,6.3
+INC100561,2025-07-04 06:13,2025-07-05 03:29,2025-07-05 06:13,P3,Network Outage,Identity & Access Management,HR Operations,Resolved,21.28,24,False,False,No,N/A,N/A,False,Low,3.3
+INC100238,2025-07-06 06:48,2025-07-08 17:18,2025-07-07 06:48,P3,Data Corruption,Service Desk L1,HR Operations,Resolved,58.5,24,True,False,No,N/A,N/A,False,Low,5.7
+INC100252,2025-07-09 20:03,2025-07-11 16:32,2025-07-10 20:03,P3,Cloud Service Disruption,Service Desk L1,Wealth Management,Resolved,44.49,24,True,False,No,N/A,N/A,False,Low,6.1
+INC100533,2025-07-09 22:31,2025-07-11 05:37,2025-07-10 22:31,P3,Capacity Exceeded,Service Desk L1,Supply Chain,Closed,31.11,24,True,False,No,N/A,N/A,False,Low,6.2
+INC100460,2025-07-10 17:30,2025-07-11 13:45,2025-07-11 17:30,P3,Network Outage,DevOps Engineering,Supply Chain,Closed,20.26,24,False,False,No,N/A,N/A,False,Medium,3.4
+INC100449,2025-07-12 09:40,2025-07-14 16:59,2025-07-13 09:40,P3,Security Breach,Database Administration,Corporate IT,Resolved,55.33,24,True,False,Yes,CHG200449,Emergency,False,Medium,5.9
+INC100210,2025-07-13 11:43,2025-07-14 05:44,2025-07-14 11:43,P3,Database Performance,Service Desk L1,Legal & Compliance,Resolved,18.02,24,False,False,No,N/A,N/A,False,Medium,2.4
+INC100588,2025-07-14 08:39,2025-07-14 18:53,2025-07-15 08:39,P3,Authentication Failure,Network Operations,HR Operations,Closed,10.24,24,False,False,No,N/A,N/A,False,Medium,3.1
+INC100555,2025-07-15 12:16,2025-07-17 04:42,2025-07-16 12:16,P3,Third-Party Integration Failure,Enterprise Architecture,Finance,Closed,40.44,24,True,False,Yes,CHG200555,Emergency,False,Low,5.8
+INC100184,2025-07-17 17:18,2025-07-22 16:51,2025-07-20 17:18,P4,Access Management,Identity & Access Management,Retail Banking,Closed,119.55,72,True,False,No,N/A,N/A,False,Low,3.7
+INC100416,2025-07-17 20:24,2025-07-18 09:04,2025-07-18 20:24,P3,Network Outage,DevOps Engineering,HR Operations,Closed,12.68,24,False,False,No,N/A,N/A,False,Low,2.9
+INC100546,2025-07-17 23:16,2025-07-18 18:35,2025-07-18 07:16,P2,Cloud Service Disruption,Cybersecurity Response,Corporate IT,Closed,19.33,8,True,False,No,N/A,N/A,False,Medium,8.6
+INC100366,2025-07-20 01:53,2025-07-24 16:57,2025-07-23 01:53,P4,Data Corruption,Enterprise Architecture,HR Operations,Closed,111.07,72,True,False,No,N/A,N/A,False,Low,5.4
+INC100267,2025-07-24 17:32,2025-07-26 16:14,2025-07-27 17:32,P4,Database Performance,Cloud Platform Team,Customer Service,Resolved,46.71,72,False,False,No,N/A,N/A,False,Low,2.0
+INC100212,2025-07-27 23:17,2025-07-31 22:32,2025-07-28 23:17,P3,Access Management,Service Desk L1,Legal & Compliance,Closed,95.25,24,True,False,No,N/A,N/A,False,Low,6.2
+INC100440,2025-07-28 20:00,2025-07-29 06:53,2025-07-29 04:00,P2,Security Breach,Enterprise Architecture,Customer Service,Closed,10.9,8,True,False,Yes,CHG200440,Normal,False,Low,8.0
+INC100243,2025-07-29 13:26,2025-07-31 05:32,2025-08-01 13:26,P4,Database Performance,Service Desk L1,Finance,Closed,40.11,72,False,False,No,N/A,N/A,False,Low,1.7
+INC100347,2025-07-30 06:53,2025-07-31 12:46,2025-08-02 06:53,P4,Capacity Exceeded,Identity & Access Management,Wealth Management,Closed,29.9,72,False,False,No,N/A,N/A,False,Medium,1.9
+INC100228,2025-07-31 03:03,2025-08-07 18:48,2025-08-03 03:03,P4,Capacity Exceeded,Identity & Access Management,Retail Banking,Closed,183.75,72,True,False,No,N/A,N/A,False,Medium,4.6
+INC100274,2025-07-31 06:37,2025-07-31 15:56,2025-08-03 06:37,P4,Data Corruption,Identity & Access Management,Retail Banking,Closed,9.33,72,False,False,No,N/A,N/A,False,Low,2.1
+INC100259,2025-08-02 03:57,2025-08-03 00:51,2025-08-03 03:57,P3,Third-Party Integration Failure,Cloud Platform Team,Legal & Compliance,Resolved,20.9,24,False,False,No,N/A,N/A,False,Low,4.6
+INC100168,2025-08-07 13:11,2025-08-07 17:00,2025-08-08 13:11,P3,Authentication Failure,Identity & Access Management,HR Operations,Resolved,3.83,24,False,False,No,N/A,N/A,False,Low,2.8
+INC100538,2025-08-07 20:53,2025-08-08 02:15,2025-08-08 04:53,P2,Security Breach,Application Support L2,Finance,Closed,5.38,8,False,False,No,N/A,N/A,False,Low,5.9
+INC100293,2025-08-09 03:17,2025-08-10 09:01,2025-08-10 03:17,P3,Cloud Service Disruption,DevOps Engineering,Retail Banking,Resolved,29.74,24,True,False,No,N/A,N/A,False,Medium,6.7
+INC100140,2025-08-10 12:45,2025-08-11 11:30,2025-08-11 12:45,P3,Access Management,Enterprise Architecture,Corporate IT,Resolved,22.76,24,False,False,No,N/A,N/A,False,Medium,3.1
+INC100496,2025-08-11 08:31,2025-08-11 14:29,2025-08-11 16:31,P2,Authentication Failure,Identity & Access Management,Customer Service,Closed,5.97,8,False,False,Yes,CHG200496,Emergency,True,High,6.4
+INC100289,2025-08-11 12:27,2025-08-11 20:41,2025-08-12 12:27,P3,Data Corruption,Cloud Platform Team,Wealth Management,Closed,8.24,24,False,False,No,N/A,N/A,False,Low,2.9
+INC100505,2025-08-13 18:41,2025-08-14 13:54,2025-08-14 18:41,P3,Application Error,Identity & Access Management,HR Operations,Closed,19.23,24,False,False,No,N/A,N/A,False,Low,3.6
+INC100239,2025-08-14 19:49,2025-08-15 06:00,2025-08-15 03:49,P2,Security Breach,Enterprise Architecture,Legal & Compliance,Resolved,10.19,8,True,False,No,N/A,N/A,False,High,8.7
+INC100472,2025-08-19 05:39,2025-08-20 12:45,2025-08-22 05:39,P4,Security Breach,Cloud Platform Team,Wealth Management,Resolved,31.11,72,False,False,No,N/A,N/A,False,Low,0.8
+INC100207,2025-08-20 15:10,2025-08-21 12:54,2025-08-21 15:10,P3,Authentication Failure,Cybersecurity Response,Finance,Closed,21.75,24,False,False,No,N/A,N/A,False,Low,2.8
+INC100447,2025-08-22 01:44,2025-08-22 05:29,2025-08-22 05:44,P1,Cloud Service Disruption,Network Operations,Retail Banking,Resolved,3.77,4,False,False,No,N/A,N/A,False,High,8.9
+INC100424,2025-08-22 15:59,2025-08-23 12:50,2025-08-22 23:59,P2,Cloud Service Disruption,Network Operations,Corporate IT,Closed,20.86,8,True,False,No,N/A,N/A,False,High,8.3
+INC100350,2025-08-23 03:21,2025-08-23 14:03,2025-08-23 11:21,P2,Application Error,Identity & Access Management,Corporate IT,Closed,10.71,8,True,False,Yes,CHG200350,Standard,False,Medium,7.6
+INC100117,2025-08-24 23:46,2025-08-25 05:45,2025-08-25 07:46,P2,Capacity Exceeded,DevOps Engineering,Corporate IT,Closed,5.98,8,False,False,Yes,CHG200117,Normal,False,Medium,5.3
+INC100080,2025-08-25 13:19,2025-08-26 02:10,2025-08-25 21:19,P2,Third-Party Integration Failure,Service Desk L1,Supply Chain,Resolved,12.85,8,True,False,No,N/A,N/A,False,Low,8.2
+INC100401,2025-08-31 01:42,2025-08-31 02:57,2025-08-31 05:42,P1,Hardware Failure,DevOps Engineering,Finance,Resolved,1.26,4,False,False,Yes,CHG200401,Standard,True,Medium,9.9
+INC100028,2025-09-01 02:43,2025-09-01 03:23,2025-09-01 06:43,P1,Application Error,Database Administration,Retail Banking,Closed,0.68,4,False,False,No,N/A,N/A,False,Low,7.5
+INC100153,2025-09-01 22:05,2025-09-02 20:41,2025-09-02 22:05,P3,Capacity Exceeded,Cloud Platform Team,Wealth Management,Closed,22.6,24,False,False,No,N/A,N/A,False,Low,3.6
+INC100547,2025-09-02 00:33,2025-09-03 12:50,2025-09-05 00:33,P4,Network Outage,Network Operations,Supply Chain,Closed,36.3,72,False,False,Yes,CHG200547,Normal,True,Low,2.6
+INC100012,2025-09-02 02:24,2025-09-02 12:37,2025-09-02 10:24,P2,Batch Job Failure,Database Administration,Corporate IT,Closed,10.23,8,True,False,No,N/A,N/A,False,Low,9.3
+INC100484,2025-09-03 01:49,2025-09-04 09:38,2025-09-06 01:49,P4,Authentication Failure,DevOps Engineering,Supply Chain,Closed,31.82,72,False,False,No,N/A,N/A,False,Medium,1.5
+INC100297,2025-09-03 17:10,2025-09-06 04:41,2025-09-04 17:10,P3,Access Management,DevOps Engineering,Supply Chain,Resolved,59.52,24,True,False,No,N/A,N/A,False,Low,6.4
+INC100015,2025-09-05 10:31,2025-09-06 01:42,2025-09-06 10:31,P3,Cloud Service Disruption,DevOps Engineering,Finance,Resolved,15.18,24,False,False,Yes,CHG200015,Normal,False,Medium,4.5
+INC100534,2025-09-05 17:10,2025-09-06 03:09,2025-09-06 01:10,P2,Capacity Exceeded,Service Desk L1,Supply Chain,Resolved,10.0,8,True,False,Yes,CHG200534,Standard,False,Medium,8.1
+INC100144,2025-09-08 04:48,2025-09-08 10:29,2025-09-08 12:48,P2,Hardware Failure,Cybersecurity Response,Wealth Management,Resolved,5.7,8,False,False,No,N/A,N/A,False,Low,7.5
+INC100176,2025-09-08 05:34,2025-09-09 06:17,2025-09-08 13:34,P2,Data Corruption,Application Support L2,Corporate IT,Resolved,24.72,8,True,False,Yes,CHG200176,Standard,True,Low,9.1
+INC100594,2025-09-15 10:16,2025-09-16 19:41,2025-09-16 10:16,P3,Authentication Failure,Infrastructure Engineering,Corporate IT,Resolved,33.43,24,True,False,No,N/A,N/A,False,Low,5.8
+INC100007,2025-09-15 20:10,2025-09-20 05:59,2025-09-18 20:10,P4,Security Breach,Infrastructure Engineering,Retail Banking,Closed,105.83,72,True,False,No,N/A,N/A,False,Low,4.7
+INC100132,2025-09-15 21:53,2025-09-16 15:53,2025-09-16 05:53,P2,Authentication Failure,DevOps Engineering,Finance,Resolved,18.0,8,True,False,No,N/A,N/A,False,Low,8.6
+INC100287,2025-09-17 12:37,2025-09-17 22:28,2025-09-17 16:37,P1,Cloud Service Disruption,Identity & Access Management,Corporate IT,Closed,9.86,4,True,False,Yes,CHG200287,Normal,False,Low,10.0
+INC100593,2025-09-18 01:06,2025-09-18 21:09,2025-09-19 01:06,P3,Cloud Service Disruption,Cybersecurity Response,HR Operations,Resolved,20.07,24,False,False,No,N/A,N/A,False,Low,3.4
+INC100318,2025-09-18 19:03,2025-09-19 17:33,2025-09-19 19:03,P3,Data Corruption,Application Support L2,Customer Service,Closed,22.51,24,False,False,No,N/A,N/A,False,Low,2.6
+INC100495,2025-09-20 00:48,2025-09-21 02:01,2025-09-21 00:48,P3,Application Error,Application Support L2,Customer Service,Resolved,25.22,24,True,False,No,N/A,N/A,False,Low,6.5
+INC100474,2025-09-21 19:02,2025-09-24 01:04,2025-09-24 19:02,P4,Application Error,Database Administration,Customer Service,Resolved,54.04,72,False,False,No,N/A,N/A,False,Low,1.6
+INC100309,2025-09-22 21:28,2025-09-27 15:25,2025-09-25 21:28,P4,Security Breach,Database Administration,Corporate IT,Resolved,113.96,72,True,False,No,N/A,N/A,False,Medium,4.1
+INC100101,2025-09-24 02:15,2025-09-26 13:48,2025-09-27 02:15,P4,Capacity Exceeded,Service Desk L1,Finance,Resolved,59.55,72,False,False,No,N/A,N/A,False,Low,1.6
+INC100511,2025-09-24 04:05,2025-09-25 00:53,2025-09-25 04:05,P3,Application Error,Application Support L2,Supply Chain,Closed,20.81,24,False,False,No,N/A,N/A,False,Medium,3.6
+INC100265,2025-09-25 09:51,2025-10-01 14:26,2025-09-28 09:51,P4,Authentication Failure,Cloud Platform Team,Retail Banking,Resolved,148.6,72,True,True,No,N/A,N/A,False,Medium,3.8
+INC100029,2025-09-26 02:26,2025-09-26 15:01,2025-09-27 02:26,P3,Security Breach,Enterprise Architecture,Finance,Resolved,12.59,24,False,False,No,N/A,N/A,False,Medium,3.4
+INC100403,2025-09-29 19:44,2025-09-30 22:48,2025-09-30 19:44,P3,Application Error,DevOps Engineering,Supply Chain,Resolved,27.08,24,True,False,Yes,CHG200403,Standard,False,Medium,5.7
+INC100530,2025-10-02 01:03,2025-10-04 01:56,2025-10-05 01:03,P4,Application Error,Enterprise Architecture,Legal & Compliance,Closed,48.89,72,False,False,No,N/A,N/A,False,Medium,0.7
+INC100596,2025-10-02 03:47,2025-10-03 04:27,2025-10-05 03:47,P4,Application Error,Network Operations,Customer Service,Closed,24.67,72,False,False,No,N/A,N/A,False,Low,1.7
+INC100091,2025-10-02 14:48,2025-10-02 21:04,2025-10-05 14:48,P4,Cloud Service Disruption,Identity & Access Management,Customer Service,Resolved,6.28,72,False,False,Yes,CHG200091,Normal,False,Low,0.8
+INC100083,2025-10-02 18:42,2025-10-03 19:06,2025-10-03 18:42,P3,Application Error,Cybersecurity Response,Supply Chain,Closed,24.41,24,True,False,No,N/A,N/A,False,Low,5.1
+INC100443,2025-10-03 02:13,2025-10-03 18:08,2025-10-03 10:13,P2,Application Error,Database Administration,Finance,Closed,15.93,8,True,False,No,N/A,N/A,False,Medium,8.2
+INC100512,2025-10-03 04:08,2025-10-03 23:30,2025-10-04 04:08,P3,Capacity Exceeded,Infrastructure Engineering,Customer Service,Closed,19.38,24,False,True,No,N/A,N/A,False,Low,3.7
+INC100600,2025-10-04 14:57,2025-10-05 01:12,2025-10-04 18:57,P1,Database Performance,Service Desk L1,Wealth Management,Resolved,10.26,4,True,False,No,N/A,N/A,False,Medium,10.0
+INC100193,2025-10-04 17:18,2025-10-08 01:06,2025-10-07 17:18,P4,Authentication Failure,Network Operations,Customer Service,Resolved,79.81,72,True,False,No,N/A,N/A,False,Low,5.6
+INC100109,2025-10-04 20:02,2025-10-05 17:20,2025-10-05 20:02,P3,Hardware Failure,Database Administration,Retail Banking,Closed,21.31,24,False,False,No,N/A,N/A,False,Low,4.9
+INC100005,2025-10-05 19:56,2025-10-06 20:58,2025-10-06 19:56,P3,Application Error,DevOps Engineering,Supply Chain,Closed,25.05,24,True,False,No,N/A,N/A,False,Medium,5.4
+INC100315,2025-10-05 22:32,2025-10-06 03:06,2025-10-06 02:32,P1,Network Outage,Cloud Platform Team,Supply Chain,Closed,4.57,4,True,False,No,N/A,N/A,False,High,10.0
+INC100092,2025-10-07 19:51,2025-10-08 01:56,2025-10-08 03:51,P2,Third-Party Integration Failure,Application Support L2,Finance,Resolved,6.08,8,False,False,Yes,CHG200092,Standard,True,High,7.7
+INC100507,2025-10-08 19:36,2025-10-09 12:57,2025-10-09 19:36,P3,Database Performance,Identity & Access Management,Corporate IT,Resolved,17.35,24,False,False,No,N/A,N/A,False,Low,2.6
+INC100514,2025-10-08 23:40,2025-10-09 02:25,2025-10-09 07:40,P2,Cloud Service Disruption,Database Administration,Customer Service,Closed,2.76,8,False,False,No,N/A,N/A,False,Low,6.6
+INC100167,2025-10-09 16:36,2025-10-10 17:10,2025-10-10 16:36,P3,Authentication Failure,DevOps Engineering,Finance,Closed,24.58,24,True,False,No,N/A,N/A,False,Medium,5.8
+INC100528,2025-10-10 13:20,2025-10-10 16:41,2025-10-11 13:20,P3,Security Breach,Application Support L2,HR Operations,Closed,3.36,24,False,False,Yes,CHG200528,Normal,False,Medium,3.0
+INC100395,2025-10-10 13:25,2025-10-11 06:49,2025-10-10 21:25,P2,Database Performance,Enterprise Architecture,Corporate IT,Closed,17.42,8,True,False,No,N/A,N/A,False,High,9.1
+INC100102,2025-10-10 22:55,2025-10-12 02:26,2025-10-11 22:55,P3,Application Error,Cloud Platform Team,Retail Banking,Resolved,27.53,24,True,True,Yes,CHG200102,Standard,False,Medium,5.9
+INC100379,2025-10-12 03:43,2025-10-14 05:08,2025-10-13 03:43,P3,Access Management,Service Desk L1,Corporate IT,Closed,49.43,24,True,False,Yes,CHG200379,Normal,False,Low,6.1
+INC100301,2025-10-12 21:44,2025-10-17 06:56,2025-10-13 21:44,P3,Capacity Exceeded,Application Support L2,Customer Service,Resolved,105.21,24,True,False,No,N/A,N/A,False,Low,6.3
+INC100114,2025-10-15 11:06,2025-10-19 20:22,2025-10-18 11:06,P4,Capacity Exceeded,Infrastructure Engineering,Corporate IT,Closed,105.28,72,True,True,No,N/A,N/A,False,Low,3.9
+INC100013,2025-10-18 10:07,2025-10-19 21:09,2025-10-21 10:07,P4,Network Outage,Application Support L2,Supply Chain,Closed,35.05,72,False,False,No,N/A,N/A,False,Low,1.8
+INC100251,2025-10-19 23:31,2025-10-20 15:05,2025-10-20 23:31,P3,Access Management,Infrastructure Engineering,Customer Service,Resolved,15.57,24,False,False,No,N/A,N/A,False,Low,4.4
+INC100217,2025-10-23 01:58,2025-10-23 08:38,2025-10-23 05:58,P1,Hardware Failure,Identity & Access Management,Supply Chain,Closed,6.68,4,True,False,No,N/A,N/A,False,Low,10.0
+INC100154,2025-10-23 21:27,2025-10-28 11:01,2025-10-26 21:27,P4,Database Performance,DevOps Engineering,Retail Banking,Resolved,109.58,72,True,False,No,N/A,N/A,False,Medium,4.2
+INC100444,2025-10-24 02:47,2025-10-25 03:48,2025-10-25 02:47,P3,Application Error,Cybersecurity Response,Corporate IT,Resolved,25.03,24,True,False,No,N/A,N/A,False,Low,6.2
+INC100341,2025-10-24 09:31,2025-10-24 19:20,2025-10-24 13:31,P1,Network Outage,Enterprise Architecture,HR Operations,Closed,9.83,4,True,True,No,N/A,N/A,False,Medium,10.0
+INC100115,2025-10-25 02:40,2025-11-01 09:09,2025-10-28 02:40,P4,Access Management,Enterprise Architecture,HR Operations,Resolved,174.5,72,True,False,No,N/A,N/A,False,Medium,3.0
+INC100100,2025-10-27 02:54,2025-10-28 04:43,2025-10-28 02:54,P3,Access Management,Enterprise Architecture,Corporate IT,Closed,25.83,24,True,False,No,N/A,N/A,False,Low,6.7
+INC100181,2025-10-27 08:15,2025-10-29 02:54,2025-10-30 08:15,P4,Access Management,Cloud Platform Team,Legal & Compliance,Resolved,42.66,72,False,False,No,N/A,N/A,False,Low,0.8
+INC100304,2025-10-27 09:10,2025-10-30 00:05,2025-10-30 09:10,P4,Data Corruption,Cybersecurity Response,Wealth Management,Resolved,62.92,72,False,False,No,N/A,N/A,False,Low,1.1
+INC100272,2025-10-28 19:08,2025-10-29 15:57,2025-10-29 19:08,P3,Third-Party Integration Failure,Identity & Access Management,Corporate IT,Closed,20.82,24,False,False,No,N/A,N/A,False,Medium,3.7
+INC100508,2025-10-30 09:45,2025-10-30 17:42,2025-10-31 09:45,P3,Security Breach,Identity & Access Management,Legal & Compliance,Closed,7.96,24,False,False,No,N/A,N/A,False,Low,3.3
+INC100552,2025-10-30 19:59,2025-11-01 17:12,2025-10-31 19:59,P3,Data Corruption,Application Support L2,HR Operations,Resolved,45.23,24,True,False,Yes,CHG200552,Emergency,True,Low,7.2
+INC100234,2025-10-31 11:07,2025-11-02 06:28,2025-11-03 11:07,P4,Batch Job Failure,DevOps Engineering,Wealth Management,Closed,43.36,72,False,False,No,N/A,N/A,False,Low,2.5
+INC100224,2025-10-31 11:44,2025-11-04 23:13,2025-11-03 11:44,P4,Authentication Failure,Network Operations,Supply Chain,Resolved,107.49,72,True,False,No,N/A,N/A,False,Medium,4.4
+INC100486,2025-11-01 00:10,2025-11-01 20:45,2025-11-04 00:10,P4,Network Outage,Identity & Access Management,HR Operations,Resolved,20.6,72,False,False,Yes,CHG200486,Normal,False,Low,2.1
+INC100544,2025-11-04 05:34,2025-11-04 12:04,2025-11-04 13:34,P2,Cloud Service Disruption,Cloud Platform Team,Legal & Compliance,Closed,6.51,8,False,False,No,N/A,N/A,False,Medium,6.0
+INC100481,2025-11-06 03:47,2025-11-07 02:37,2025-11-07 03:47,P3,Access Management,Cloud Platform Team,Wealth Management,Closed,22.85,24,False,False,No,N/A,N/A,False,Low,4.0
+INC100254,2025-11-06 15:01,2025-11-08 05:19,2025-11-07 15:01,P3,Batch Job Failure,Enterprise Architecture,Customer Service,Resolved,38.32,24,True,False,Yes,CHG200254,Emergency,False,Low,6.3
+INC100122,2025-11-07 00:08,2025-11-07 10:42,2025-11-08 00:08,P3,Hardware Failure,Database Administration,Retail Banking,Resolved,10.58,24,False,False,Yes,CHG200122,Standard,False,Medium,3.7
+INC100156,2025-11-08 10:56,2025-11-10 13:51,2025-11-09 10:56,P3,Cloud Service Disruption,DevOps Engineering,Finance,Closed,50.93,24,True,False,No,N/A,N/A,False,Medium,5.5
+INC100066,2025-11-08 11:04,2025-11-09 15:12,2025-11-09 11:04,P3,Network Outage,Identity & Access Management,Corporate IT,Resolved,28.14,24,True,True,No,N/A,N/A,False,Low,5.7
+INC100362,2025-11-08 20:38,2025-11-09 14:50,2025-11-09 04:38,P2,Data Corruption,Application Support L2,Supply Chain,Resolved,18.21,8,True,True,No,N/A,N/A,False,High,8.1
+INC100045,2025-11-10 03:46,2025-11-11 18:35,2025-11-13 03:46,P4,Batch Job Failure,Identity & Access Management,Legal & Compliance,Resolved,38.83,72,False,False,No,N/A,N/A,False,Low,0.5
+INC100033,2025-11-10 03:56,2025-11-13 07:59,2025-11-13 03:56,P4,Cloud Service Disruption,Network Operations,Supply Chain,Closed,76.06,72,True,False,Yes,CHG200033,Standard,False,Low,4.3
+INC100414,2025-11-10 21:41,2025-11-12 15:35,2025-11-11 21:41,P3,Security Breach,Service Desk L1,Legal & Compliance,Resolved,41.91,24,True,True,No,N/A,N/A,False,Medium,5.1
+INC100305,2025-11-11 20:10,2025-11-11 21:36,2025-11-12 04:10,P2,Hardware Failure,Application Support L2,Legal & Compliance,Closed,1.44,8,False,False,Yes,CHG200305,Emergency,True,High,6.7
+INC100222,2025-11-16 03:11,2025-11-16 12:18,2025-11-17 03:11,P3,Access Management,Application Support L2,Corporate IT,Closed,9.13,24,False,False,No,N/A,N/A,False,Medium,3.6
+INC100413,2025-11-16 10:33,2025-11-18 04:45,2025-11-19 10:33,P4,Cloud Service Disruption,Enterprise Architecture,HR Operations,Resolved,42.22,72,False,False,No,N/A,N/A,False,Low,2.4
+INC100129,2025-11-17 03:26,2025-11-17 21:35,2025-11-18 03:26,P3,Network Outage,Enterprise Architecture,Legal & Compliance,Closed,18.16,24,False,False,No,N/A,N/A,False,Low,3.4
+INC100454,2025-11-18 20:15,2025-11-19 15:50,2025-11-19 20:15,P3,Access Management,Identity & Access Management,Wealth Management,Closed,19.6,24,False,False,Yes,CHG200454,Emergency,True,Low,3.8
+INC100178,2025-11-18 20:25,2025-11-19 22:59,2025-11-21 20:25,P4,Hardware Failure,Network Operations,Retail Banking,Closed,26.57,72,False,False,No,N/A,N/A,False,Medium,0.9
+INC100288,2025-11-19 04:20,2025-11-20 07:40,2025-11-20 04:20,P3,Hardware Failure,Enterprise Architecture,Retail Banking,Resolved,27.34,24,True,False,Yes,CHG200288,Normal,True,Low,7.5
+INC100428,2025-11-19 04:45,2025-11-19 13:57,2025-11-22 04:45,P4,Capacity Exceeded,Infrastructure Engineering,Legal & Compliance,Closed,9.2,72,False,False,No,N/A,N/A,False,Low,1.4
+INC100087,2025-11-19 08:36,2025-11-19 12:39,2025-11-19 12:36,P1,Authentication Failure,Enterprise Architecture,Finance,Closed,4.06,4,True,False,Yes,CHG200087,Standard,False,High,10.0
+INC100543,2025-11-21 14:44,2025-11-23 07:46,2025-11-24 14:44,P4,Data Corruption,Application Support L2,Legal & Compliance,Resolved,41.03,72,False,False,No,N/A,N/A,False,Medium,2.1
+INC100491,2025-11-24 22:14,2025-11-25 23:05,2025-11-27 22:14,P4,Application Error,Cloud Platform Team,HR Operations,Closed,24.86,72,False,False,No,N/A,N/A,False,Low,0.8
+INC100475,2025-11-25 20:27,2025-11-26 01:22,2025-11-26 20:27,P3,Database Performance,Enterprise Architecture,Finance,Resolved,4.92,24,False,False,No,N/A,N/A,False,Low,4.1
+INC100180,2025-11-26 14:23,2025-11-26 22:36,2025-11-27 14:23,P3,Network Outage,Enterprise Architecture,Wealth Management,Resolved,8.22,24,False,False,No,N/A,N/A,False,Low,4.0
+INC100042,2025-11-26 17:21,2025-11-27 12:46,2025-11-27 17:21,P3,Hardware Failure,Identity & Access Management,Corporate IT,Resolved,19.43,24,False,False,No,N/A,N/A,False,Low,2.4
+INC100390,2025-11-27 10:41,2025-11-28 08:41,2025-11-27 18:41,P2,Capacity Exceeded,Infrastructure Engineering,Wealth Management,Resolved,22.02,8,True,False,Yes,CHG200390,Normal,True,Medium,10.0
+INC100145,2025-11-28 18:41,2025-12-03 14:27,2025-12-01 18:41,P4,Third-Party Integration Failure,Service Desk L1,Customer Service,Resolved,115.77,72,True,False,No,N/A,N/A,False,Low,4.0
+INC100303,2025-11-29 01:02,2025-11-29 11:34,2025-11-29 09:02,P2,Authentication Failure,Service Desk L1,Legal & Compliance,Closed,10.55,8,True,False,Yes,CHG200303,Normal,True,High,9.5
+INC100431,2025-11-30 08:09,2025-11-30 17:01,2025-12-01 08:09,P3,Hardware Failure,Database Administration,Supply Chain,Resolved,8.88,24,False,False,No,N/A,N/A,False,Low,3.1
+INC100385,2025-12-01 03:30,2025-12-01 14:53,2025-12-01 11:30,P2,Authentication Failure,Infrastructure Engineering,Supply Chain,Resolved,11.4,8,True,False,Yes,CHG200385,Normal,False,Low,7.7
+INC100008,2025-12-02 10:53,2025-12-03 07:27,2025-12-03 10:53,P3,Hardware Failure,DevOps Engineering,HR Operations,Resolved,20.57,24,False,False,No,N/A,N/A,False,Medium,3.7
+INC100559,2025-12-02 11:09,2025-12-02 16:36,2025-12-03 11:09,P3,Network Outage,Cybersecurity Response,HR Operations,Resolved,5.47,24,False,False,No,N/A,N/A,False,Medium,4.0
+INC100269,2025-12-02 12:10,2025-12-02 23:07,2025-12-02 16:10,P1,Security Breach,Enterprise Architecture,Wealth Management,Closed,10.95,4,True,True,Yes,CHG200269,Normal,True,Medium,10.0
+INC100171,2025-12-02 14:44,2025-12-03 00:58,2025-12-03 14:44,P3,Cloud Service Disruption,Identity & Access Management,Wealth Management,Closed,10.24,24,False,False,No,N/A,N/A,False,Medium,3.0
+INC100034,2025-12-04 20:54,2025-12-10 14:22,2025-12-07 20:54,P4,Security Breach,Identity & Access Management,HR Operations,Closed,137.48,72,True,False,No,N/A,N/A,False,Medium,3.7
+INC100405,2025-12-05 15:21,2025-12-09 16:20,2025-12-06 15:21,P3,Cloud Service Disruption,Service Desk L1,HR Operations,Resolved,96.99,24,True,False,No,N/A,N/A,False,Medium,6.2
+INC100529,2025-12-05 19:09,2025-12-10 08:34,2025-12-08 19:09,P4,Network Outage,Enterprise Architecture,Customer Service,Resolved,109.42,72,True,False,No,N/A,N/A,False,Low,3.8
+INC100206,2025-12-05 20:01,2025-12-05 22:35,2025-12-06 00:01,P1,Application Error,Cloud Platform Team,Supply Chain,Resolved,2.58,4,False,False,No,N/A,N/A,False,Low,7.8
+INC100352,2025-12-06 09:08,2025-12-08 01:02,2025-12-09 09:08,P4,Database Performance,Cloud Platform Team,Supply Chain,Resolved,39.91,72,False,False,No,N/A,N/A,False,Low,0.5
+INC100532,2025-12-06 12:22,2025-12-06 20:06,2025-12-06 20:22,P2,Capacity Exceeded,Cybersecurity Response,Finance,Resolved,7.75,8,False,False,No,N/A,N/A,False,Medium,5.1
+INC100225,2025-12-07 03:40,2025-12-08 18:25,2025-12-08 03:40,P3,Data Corruption,DevOps Engineering,Supply Chain,Resolved,38.77,24,True,False,No,N/A,N/A,False,Medium,7.2
+INC100141,2025-12-07 11:05,2025-12-08 06:01,2025-12-10 11:05,P4,Access Management,Database Administration,Customer Service,Resolved,18.94,72,False,False,No,N/A,N/A,False,Low,1.0
+INC100177,2025-12-07 14:22,2025-12-08 02:40,2025-12-10 14:22,P4,Capacity Exceeded,Cloud Platform Team,Wealth Management,Resolved,12.3,72,False,False,No,N/A,N/A,False,Low,1.6
+INC100311,2025-12-08 00:54,2025-12-09 02:39,2025-12-09 00:54,P3,Security Breach,DevOps Engineering,Supply Chain,Resolved,25.76,24,True,False,No,N/A,N/A,False,Low,5.3
+INC100175,2025-12-09 15:23,2025-12-11 14:15,2025-12-12 15:23,P4,Access Management,Database Administration,Customer Service,Resolved,46.87,72,False,False,No,N/A,N/A,False,Low,1.0
+INC100433,2025-12-10 21:03,2025-12-10 23:43,2025-12-11 05:03,P2,Data Corruption,Cybersecurity Response,Supply Chain,Closed,2.68,8,False,False,No,N/A,N/A,False,Low,4.9
+INC100307,2025-12-11 04:30,2025-12-12 00:01,2025-12-12 04:30,P3,Access Management,Application Support L2,Corporate IT,Resolved,19.53,24,False,False,Yes,CHG200307,Normal,True,Low,3.9
+INC100397,2025-12-11 11:19,2025-12-11 18:47,2025-12-11 19:19,P2,Batch Job Failure,Cybersecurity Response,HR Operations,Resolved,7.47,8,False,False,Yes,CHG200397,Normal,False,High,6.5
+INC100455,2025-12-11 18:09,2025-12-11 18:48,2025-12-11 22:09,P1,Access Management,Enterprise Architecture,Supply Chain,Resolved,0.66,4,False,False,No,N/A,N/A,False,Medium,6.9
+INC100273,2025-12-12 20:31,2025-12-13 11:42,2025-12-13 20:31,P3,Data Corruption,Identity & Access Management,Supply Chain,Closed,15.2,24,False,False,No,N/A,N/A,False,Low,2.9
+INC100164,2025-12-13 04:48,2025-12-15 07:46,2025-12-14 04:48,P3,Network Outage,Infrastructure Engineering,Customer Service,Closed,50.97,24,True,False,No,N/A,N/A,False,Medium,5.7
+INC100257,2025-12-14 07:19,2025-12-15 01:56,2025-12-14 11:19,P1,Third-Party Integration Failure,Enterprise Architecture,HR Operations,Resolved,18.63,4,True,False,No,N/A,N/A,False,Low,10.0
+INC100003,2025-12-15 13:21,2025-12-16 12:51,2025-12-16 13:21,P3,Hardware Failure,Network Operations,Wealth Management,Closed,23.52,24,False,False,No,N/A,N/A,False,Low,3.1
+INC100317,2025-12-16 13:46,2025-12-17 06:29,2025-12-17 13:46,P3,Authentication Failure,Application Support L2,Supply Chain,Closed,16.72,24,False,False,No,N/A,N/A,False,Medium,2.8
+INC100107,2025-12-17 09:01,2025-12-18 11:02,2025-12-20 09:01,P4,Access Management,Enterprise Architecture,Supply Chain,Closed,26.03,72,False,False,No,N/A,N/A,False,Low,1.1
+INC100500,2025-12-18 11:23,2025-12-18 19:20,2025-12-18 19:23,P2,Data Corruption,Cybersecurity Response,Corporate IT,Resolved,7.95,8,False,False,No,N/A,N/A,False,Low,6.1
+INC100040,2025-12-19 03:24,2025-12-19 11:59,2025-12-19 07:24,P1,Security Breach,Infrastructure Engineering,Wealth Management,Closed,8.59,4,True,False,No,N/A,N/A,False,Medium,10.0
+INC100427,2025-12-19 17:55,2025-12-23 02:05,2025-12-20 17:55,P3,Data Corruption,Enterprise Architecture,Supply Chain,Closed,80.17,24,True,False,No,N/A,N/A,False,Low,6.4
+INC100487,2025-12-21 02:58,2025-12-21 11:02,2025-12-21 10:58,P2,Authentication Failure,Cybersecurity Response,Finance,Resolved,8.08,8,True,False,Yes,CHG200487,Normal,False,Medium,9.1
+INC100359,2025-12-22 00:27,2025-12-22 09:20,2025-12-22 08:27,P2,Application Error,Identity & Access Management,Customer Service,Closed,8.89,8,True,False,No,N/A,N/A,False,Medium,8.9
+INC100438,2025-12-25 10:33,2025-12-26 10:05,2025-12-26 10:33,P3,Cloud Service Disruption,Identity & Access Management,Retail Banking,Closed,23.54,24,False,False,No,N/A,N/A,False,Low,4.4
+INC100351,2025-12-25 17:44,2025-12-26 23:17,2025-12-26 17:44,P3,Batch Job Failure,Identity & Access Management,Wealth Management,Resolved,29.56,24,True,False,No,N/A,N/A,False,Low,5.8
+INC100205,2025-12-26 18:19,2025-12-27 12:27,2025-12-27 18:19,P3,Cloud Service Disruption,DevOps Engineering,Customer Service,Resolved,18.15,24,False,False,No,N/A,N/A,False,Low,2.9
