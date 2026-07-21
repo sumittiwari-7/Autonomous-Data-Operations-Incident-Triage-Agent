@@ -170,6 +170,3 @@ It's built for technical recruiters and engineering hiring managers evaluating h
 
 ---
 
-## 📄 License
-
-MIT (or your preferred license).
